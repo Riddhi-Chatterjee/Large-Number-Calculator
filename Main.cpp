@@ -1,7 +1,7 @@
 /*
     Group members: 
     * Riddhi Chatterjee (IMT2020094)
-    * Asmita Zjigyasu (IMT2020507)
+    * Ankrutee Arora (IMT2020034)
 */
 
 #include <iostream>
