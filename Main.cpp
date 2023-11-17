@@ -8,6 +8,7 @@
 #include <cmath>
 #include <chrono>
 #include "adder.hpp"
+#include "subtractor.hpp"
 #include "divider.hpp"
 #include "multiplier.hpp"
 #include "squareRoot.hpp"
@@ -19,6 +20,10 @@ int precisionConverter(int Bi, int P_Bi, int Bf);
 void printNum(struct Number &num, baseConverter *bConv);
 void printVec(vector<int> &v);
 void strToNum(struct Number &num, string s, baseConverter *bConv);
+struct Number addPosNum(struct Number &num1, struct Number &num2, int iBase, int precision);
+struct Number subPosNum(struct Number &num1, struct Number &num2, int iBase, int precision);
+struct Number mulPosNum(struct Number &num1, struct Number &num2, int iBase, int precision);
+struct Number divPosNum(struct Number &num1, struct Number &num2, int iBase, int precision);
 
 int main()
 {
@@ -27,178 +32,241 @@ int main()
     //cin>>INTERNAL_BASE_POWER;
     INTERNAL_BASE_POWER = 10; //Setting INTERNAL_BASE_POWER to 10 for optimal performance
     //cout<<endl;
+
     int PRECISION_PAD_DIGITS = 6; //Padding extra 6 digits of precision as compared to the required precision.
+
     int iBase;
     iBase = (int)pow(2, INTERNAL_BASE_POWER); //The base for internal computations
+
     int choice;
-    cout<<"Choose what you want to compute: [1]: sqrt(n), [2]: PI"<<endl;
+    cout<<endl;
+    cout<<"Choose an operation:"<<endl;
+    cout<<"[1]: Add two numbers"<<endl;
+    cout<<"[2]: Subtract two numbers"<<endl;
+    cout<<"[3]: Multiply two numbers"<<endl;
+    cout<<"[4]: Divide two numbers"<<endl;
+    cout<<"[5]: Compute square root of a number"<<endl;
+    cout<<"[6]: Compute the value of PI"<<endl;
+    cout<<endl;
     cin>>choice;
     cout<<endl;
-    if(choice == 1) //Computing sqrt(n):
+
+    if(choice == 1) //(a+b)
+    {
+
+    }
+
+    else if(choice == 2) //(a-b)
+    {
+
+    }
+
+    else if(choice == 3) //(a*b)
+    {
+        
+    }
+
+    else if(choice == 4) //(a/b)
+    {
+        
+    }
+
+    else if(choice == 5) //sqrt(n):
     {
         string n;
         int P_10;
         int P_B;
+        cout<<"Computing sqrt(n)..."<<endl<<endl;
         cout<<"Enter the number 'n' as a decimal string:"<<endl;
         cin>>n;
         cout<<endl;
-        cout<<"Enter the number of digits of precision required:"<<endl;
-        cin>>P_10;
-        cout<<endl;
-        chrono::steady_clock::time_point begin = chrono::steady_clock::now(); //Used to calculate the computation time
-        P_10 = P_10 + PRECISION_PAD_DIGITS;
-        P_B = precisionConverter(10, P_10, iBase); //Finding out the equivalent precision in iBase
 
-        struct Number num;
-        baseConverter *bConv = new baseConverter();
-        strToNum(num, n, bConv);
-        int inputPrecision = precisionConverter(10, ((-1)*num.second) + PRECISION_PAD_DIGITS, iBase);
-        bConv->convertFromTen(num, iBase, inputPrecision); //Converting the base of the input number from 10 to iBase
+        if(n[0] == '-')
+        {
+            cout<<"Can't compute square root of a negative number!!"<<endl<<endl;
+        }
+        else
+        {
+            cout<<"Enter the number of digits of precision required:"<<endl;
+            cin>>P_10;
+            cout<<endl;
 
-        struct Number result;
-        squareRoot *r = new squareRoot();
-        r->setPrintFlag(true);
-        result = r->sqRootOf(num, iBase, P_B); //Calculating the square root
+            if(P_10 < 0)
+            {
+                cout<<"Number of digits of precision must be a non-negative number!!"<<endl<<endl;
+            }
+            else
+            {
+                chrono::steady_clock::time_point begin = chrono::steady_clock::now(); //Used to calculate the computation time
+                P_10 = P_10 + PRECISION_PAD_DIGITS;
+                P_B = precisionConverter(10, P_10, iBase); //Finding out the equivalent precision in iBase
 
-        bConv->convertToTen(result, iBase, P_10 - PRECISION_PAD_DIGITS); //Converting the base of the final result from iBase to 10
+                struct Number num;
+                baseConverter *bConv = new baseConverter();
+                strToNum(num, n, bConv);
+                int inputPrecision = precisionConverter(10, ((-1)*num.second) + PRECISION_PAD_DIGITS, iBase);
+                bConv->convertFromTen(num, iBase, inputPrecision); //Converting the base of the input number from 10 to iBase
 
-        chrono::steady_clock::time_point end = chrono::steady_clock::now(); //Used to calculate the computation time
-        cout<<"sqrt(n) = ";
-        printNum(result, bConv); //Printing the final result of square root
-        
-        long long int sec = chrono::duration_cast<chrono::microseconds>(end - begin).count()/1000000;
-        long long int min = sec/60;
-        sec = sec % 60;
-        long long int hr = min/60;
-        min = min % 60;
-        cout<<endl;
-        cout<<"Completed in: "<<hr<<" Hours, "<<min<<" Minutes, "<<sec<<" Seconds"<<endl<<endl; //Printing the computation time
+                struct Number result;
+                squareRoot *r = new squareRoot();
+                r->setPrintFlag(true);
+                result = r->sqRootOf(num, iBase, P_B); //Calculating the square root
 
-        //Freeing memory:
-        delete bConv;
-        bConv = NULL;
+                bConv->convertToTen(result, iBase, P_10 - PRECISION_PAD_DIGITS); //Converting the base of the final result from iBase to 10
 
-        delete r;
-        r = NULL;
+                chrono::steady_clock::time_point end = chrono::steady_clock::now(); //Used to calculate the computation time
+                cout<<"sqrt(n) = ";
+                printNum(result, bConv); //Printing the final result of square root
+                
+                long long int sec = chrono::duration_cast<chrono::microseconds>(end - begin).count()/1000000;
+                long long int min = sec/60;
+                sec = sec % 60;
+                long long int hr = min/60;
+                min = min % 60;
+                cout<<endl;
+                cout<<"Completed in: "<<hr<<" Hours, "<<min<<" Minutes, "<<sec<<" Seconds"<<endl<<endl; //Printing the computation time
+
+                //Freeing memory:
+                delete bConv;
+                bConv = NULL;
+
+                delete r;
+                r = NULL;
+            }
+        }
     }
-    else //Calculating the value of PI:
+
+    else if(choice == 6) //Calculating the value of PI:
     {
         int P_10;
         int P_B;
         cout<<"Enter the number of digits of precision required:"<<endl;
         cin>>P_10;
         cout<<endl;
-        chrono::steady_clock::time_point begin = chrono::steady_clock::now(); //Used to calculate the computation time
-        P_10 = P_10 + PRECISION_PAD_DIGITS;
-        P_B = precisionConverter(10, P_10, iBase); //Finding out the equivalent precision in iBase
 
-        struct Number a1;
-        struct Number a2;
-        struct Number b1;
-        struct Number b2;
-        struct Number p1;
-        struct Number p2;
-
-        struct Number two;
-        two.first.push_back(2);
-        two.second = 0;
-        baseConverter *bConv = new baseConverter();
-        bConv->convertFromTen(two, iBase, 0);
-
-        struct Number one;
-        one.first.push_back(1);
-        one.second = 0;
-        bConv->convertFromTen(one, iBase, 0);
-
-        adder *adr = new adder();
-        divider *dvdr = new divider();
-        multiplier *mtlr = new multiplier();
-        squareRoot *r = new squareRoot();
-
-        //Applying the Borwein’s exp-2 Algorithm:
-
-        //Initialising variables:
-        a1 = r->sqRootOf(two, iBase, P_B);
-        p1 = adr->add(two, a1, iBase, P_B);
-        p2 = p1;
-        b1.first.push_back(0);
-        b1.second = 0;
-        a2 = a1;
-        b2 = b1;
-        
-        struct Number temp1, temp2, temp3, temp4;
-
-        int c = 8; //Asymptotic constant
-        int limit = ceil(c*log10(P_B));
-        int it_count = 0;
-        while(it_count <= limit)
+        if(P_10 < 0)
         {
-            int obtainedPrecision = (int)pow(10, (1.0*it_count)/c);
-            obtainedPrecision = precisionConverter(iBase, obtainedPrecision, 10);
-            cout<<"Iterations: "<<it_count<<" / "<<limit<<", Current Precision: ~"<<obtainedPrecision<<" Digits"<<flush;
-            if(it_count+1 <= limit)
-            {
-                cout<<'\r';
-            }
-
-            it_count++;
-
-            //Internal steps of the algorithm:
-            a1 = a2;
-            b1 = b2;
-            p1 = p2;
-
-            temp1 = r->sqRootOf(a1, iBase, P_B);
-            temp2 = dvdr->divide(one, temp1, iBase, P_B);
-            temp3 = adr->add(temp1, temp2, iBase, P_B);
-            a2 = dvdr->divide(temp3, two, iBase, P_B);
-
-            temp2 = adr->add(one, b1, iBase, P_B);
-            temp3 = adr->add(a1, b1, iBase, P_B);
-            temp4 = mtlr->multiply(temp2, temp1, iBase, P_B);
-            b2 = dvdr->divide(temp4, temp3, iBase, P_B);
-
-            temp1 = adr->add(one, a2, iBase, P_B);
-            temp2 = mtlr->multiply(temp1, p1, iBase, P_B);
-            temp3 = mtlr->multiply(temp2, b2, iBase, P_B);
-            temp4 = adr->add(one, b2, iBase, P_B);
-            p2 = dvdr->divide(temp3, temp4, iBase, P_B);
-
-            /*
-                ASSERTION:
-                * p2 will give closer and closer approximations to PI as the algorithm runs
-            */
+            cout<<"Number of digits of precision must be a non-negative number!!"<<endl<<endl;
         }
-        cout<<endl;
-        bConv->convertToTen(p2, iBase, P_10 - PRECISION_PAD_DIGITS); //Converting the base of the final result from iBase to 10
-        chrono::steady_clock::time_point end = chrono::steady_clock::now(); //Used to calculate the computation time
-        cout<<endl;
-        cout<<"PI = ";
-        printNum(p2, bConv); //Printing the value of PI
+        else
+        {
+            chrono::steady_clock::time_point begin = chrono::steady_clock::now(); //Used to calculate the computation time
+            P_10 = P_10 + PRECISION_PAD_DIGITS;
+            P_B = precisionConverter(10, P_10, iBase); //Finding out the equivalent precision in iBase
 
-        long long int sec = chrono::duration_cast<chrono::microseconds>(end - begin).count()/1000000;
-        long long int min = sec/60;
-        sec = sec % 60;
-        long long int hr = min/60;
-        min = min % 60;
-        cout<<endl;
-        cout<<"Completed in: "<<hr<<" Hours, "<<min<<" Minutes, "<<sec<<" Seconds"<<endl<<endl; //Printing the computation time
+            struct Number a1;
+            struct Number a2;
+            struct Number b1;
+            struct Number b2;
+            struct Number p1;
+            struct Number p2;
 
-        //Freeing memory:
-        delete bConv;
-        bConv = NULL;
+            struct Number two;
+            two.first.push_back(2);
+            two.second = 0;
+            baseConverter *bConv = new baseConverter();
+            bConv->convertFromTen(two, iBase, 0);
 
-        delete adr;
-        adr = NULL;
+            struct Number one;
+            one.first.push_back(1);
+            one.second = 0;
+            bConv->convertFromTen(one, iBase, 0);
 
-        delete dvdr;
-        dvdr = NULL;
+            adder *adr = new adder();
+            divider *dvdr = new divider();
+            multiplier *mtlr = new multiplier();
+            squareRoot *r = new squareRoot();
 
-        delete mtlr;
-        mtlr = NULL;
+            //Applying the Borwein’s exp-2 Algorithm:
 
-        delete r;
-        r = NULL;     
+            //Initialising variables:
+            a1 = r->sqRootOf(two, iBase, P_B);
+            p1 = adr->add(two, a1, iBase, P_B);
+            p2 = p1;
+            b1.first.push_back(0);
+            b1.second = 0;
+            a2 = a1;
+            b2 = b1;
+            
+            struct Number temp1, temp2, temp3, temp4;
+
+            int c = 8; //Asymptotic constant
+            int limit = ceil(c*log10(P_B));
+            int it_count = 0;
+            while(it_count <= limit)
+            {
+                int obtainedPrecision = (int)pow(10, (1.0*it_count)/c);
+                obtainedPrecision = precisionConverter(iBase, obtainedPrecision, 10);
+                cout<<"Iterations: "<<it_count<<" / "<<limit<<", Current Precision: ~"<<obtainedPrecision<<" Digits"<<flush;
+                if(it_count+1 <= limit)
+                {
+                    cout<<'\r';
+                }
+
+                it_count++;
+
+                //Internal steps of the algorithm:
+                a1 = a2;
+                b1 = b2;
+                p1 = p2;
+
+                temp1 = r->sqRootOf(a1, iBase, P_B);
+                temp2 = dvdr->divide(one, temp1, iBase, P_B);
+                temp3 = adr->add(temp1, temp2, iBase, P_B);
+                a2 = dvdr->divide(temp3, two, iBase, P_B);
+
+                temp2 = adr->add(one, b1, iBase, P_B);
+                temp3 = adr->add(a1, b1, iBase, P_B);
+                temp4 = mtlr->multiply(temp2, temp1, iBase, P_B);
+                b2 = dvdr->divide(temp4, temp3, iBase, P_B);
+
+                temp1 = adr->add(one, a2, iBase, P_B);
+                temp2 = mtlr->multiply(temp1, p1, iBase, P_B);
+                temp3 = mtlr->multiply(temp2, b2, iBase, P_B);
+                temp4 = adr->add(one, b2, iBase, P_B);
+                p2 = dvdr->divide(temp3, temp4, iBase, P_B);
+
+                /*
+                    ASSERTION:
+                    * p2 will give closer and closer approximations to PI as the algorithm runs
+                */
+            }
+            cout<<endl;
+            bConv->convertToTen(p2, iBase, P_10 - PRECISION_PAD_DIGITS); //Converting the base of the final result from iBase to 10
+            chrono::steady_clock::time_point end = chrono::steady_clock::now(); //Used to calculate the computation time
+            cout<<endl;
+            cout<<"PI = ";
+            printNum(p2, bConv); //Printing the value of PI
+
+            long long int sec = chrono::duration_cast<chrono::microseconds>(end - begin).count()/1000000;
+            long long int min = sec/60;
+            sec = sec % 60;
+            long long int hr = min/60;
+            min = min % 60;
+            cout<<endl;
+            cout<<"Completed in: "<<hr<<" Hours, "<<min<<" Minutes, "<<sec<<" Seconds"<<endl<<endl; //Printing the computation time
+
+            //Freeing memory:
+            delete bConv;
+            bConv = NULL;
+
+            delete adr;
+            adr = NULL;
+
+            delete dvdr;
+            dvdr = NULL;
+
+            delete mtlr;
+            mtlr = NULL;
+
+            delete r;
+            r = NULL; 
+        }    
+    }
+
+    else
+    {
+        cout<<"Wrong choice!!"<<endl;
     }
 
     cout<<"Process finished with exit code 0"<<endl;
@@ -294,4 +362,44 @@ void printVec(vector<int> &v) //Used to print a vector
             cout<<v[i]<<"]"<<endl;
         }
     }
+}
+
+struct Number addPosNum(struct Number &num1, struct Number &num2, int iBase, int precision)
+{
+    adder *adr = new adder();
+
+    struct Number result;
+    result = adr->add(num1, num2, iBase, precision);
+
+    return result;
+}
+
+struct Number subPosNum(struct Number &num1, struct Number &num2, int iBase, int precision) //Works only if num1 >= num2
+{
+    subtractor *sbtr = new subtractor();
+
+    struct Number result;
+    result = sbtr->subtract(num1, num2, iBase, precision);
+
+    return result;
+}
+
+struct Number mulPosNum(struct Number &num1, struct Number &num2, int iBase, int precision)
+{
+    multiplier *mtlr = new multiplier();
+
+    struct Number result;
+    result = mtlr-> multiply(num1, num2, iBase, precision);
+
+    return result;
+}
+
+struct Number divPosNum(struct Number &num1, struct Number &num2, int iBase, int precision)
+{
+    divider *dvdr = new divider();
+
+    struct Number result;
+    result = dvdr->divide(num1, num2, iBase, precision);
+
+    return result;
 }
