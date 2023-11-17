@@ -1,0 +1,16 @@
+#pragma once
+#include <iostream>
+#include <vector>
+#include <algorithm> // for copy()
+#include <iterator> // for back_inserter
+#include "structs.hpp"
+using namespace std;
+class approximator
+{
+    private :
+    void vecInverter(vector<int> &v);
+
+    public :
+    void roundOff(struct Number &num, int base, int precision);
+    
+};
