@@ -949,6 +949,50 @@ bool absGeq(string a, string b)
     b = ABS(b);
 
     int i;
+
+    int dec_idx_a = 0;
+    for(i=0;i<a.length();i++)
+    {
+        if(a[i] != '.')
+        {
+            dec_idx_a++;
+        }
+        else
+        {
+            break;
+        }
+    }
+
+    int dec_idx_b = 0;
+    for(i=0;i<b.length();i++)
+    {
+        if(b[i] != '.')
+        {
+            dec_idx_b++;
+        }
+        else
+        {
+            break;
+        }
+    }
+
+    if(dec_idx_a < dec_idx_b)
+    {
+        int j;
+        for(j=0;j<(dec_idx_b-dec_idx_a);j++)
+        {
+            a = '0'+a;
+        }
+    }
+    else if(dec_idx_b < dec_idx_a)
+    {
+        int j;
+        for(j=0;j<(dec_idx_a-dec_idx_b);j++)
+        {
+            b = '0'+b;
+        }
+    }
+
     for(i=0;i<min(a.size(), b.size()); i++)
     {
         if(a[i] == '.' && b[i] != '.')
