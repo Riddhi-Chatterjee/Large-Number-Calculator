@@ -1,0 +1,6 @@
+adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <
+
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >
+
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >=
+

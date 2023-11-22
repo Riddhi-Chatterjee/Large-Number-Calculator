@@ -1,0 +1,5 @@
+Mutant,Differentiating_test_case,Test_result_of_original_program,Test_result_of_mutant,Test_output_of_original_program,Test_output_of_mutant,Mutant_status
+adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >=,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
+,,,,,,Mutants killed = 3/3 = 100.0%
