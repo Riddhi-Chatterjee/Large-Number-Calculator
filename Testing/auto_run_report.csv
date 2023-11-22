@@ -1,5 +1,33 @@
 Mutant,Differentiating_test_case,Test_result_of_original_program,Test_result_of_mutant,Test_output_of_original_program,Test_output_of_mutant,Mutant_status
 adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
 adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
-adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >=,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
-,,,,,,Mutants killed = 3/3 = 100.0%
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : +,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,1229430010.342,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : +,NA,NA,NA,NA,NA,Not killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : *,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,122943000000000000000000000010.342,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : *,NA,NA,NA,NA,NA,Not killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : /,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.465,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : /,NA,NA,NA,NA,NA,Not killed
+adder_add : ArOR : adder.cpp : 25 : 27 : 25 : 30 : ,NA,NA,NA,NA,NA,Not killed
+adder_add : ArOR : adder.cpp : 33 : 27 : 33 : 30 : ,NA,NA,NA,NA,NA,Not killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 32 : ,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,122953.342,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 32 : ,NA,NA,NA,NA,NA,Not killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : %,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : %,NA,NA,NA,NA,NA,Not killed
+adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : ==,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : ==,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : -,adder_add : adder.cpp : 10.342 : 12.233 : 10 : 3 : 22.575,SUCCESS,FAILURE,22.575,((.+-+,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : /,adder_add : adder.cpp : 10.342 : 12.233 : 10 : 3 : 22.575,SUCCESS,FAILURE,22.575,0,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : +,adder_add : adder.cpp : 10.342 : 12.233 : 10 : 3 : 22.575,SUCCESS,FAILURE,22.575,<<.?A?,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : *,adder_add : adder.cpp : 10.342 : 12.233 : 10 : 3 : 22.575,SUCCESS,FAILURE,22.575,DD.bvb,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 75 : ,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,22.6=6,Killed
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : *,adder_add : adder.cpp : 10.342 : 12.233 : 10 : 3 : 22.575,SUCCESS,FAILURE,22.575,$22.575,Killed
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : %,adder_add : adder.cpp : 10.342 : 12.233 : 10 : 3 : 22.575,SUCCESS,FAILURE,22.575,119.725,Killed
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : -,adder_add : adder.cpp : 10.342 : 12.233 : 10 : 3 : 22.575,SUCCESS,FAILURE,22.575,'/.-25,Killed
+adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : == ,NA,NA,NA,NA,NA,Not killed
+adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : >=,NA,NA,NA,NA,NA,Not killed
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : abs(p1),NA,NA,NA,NA,NA,Not killed
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : (-abs(p1)),NA,NA,NA,NA,NA,Not killed
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : +,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,133.636,Killed
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : *,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,22.536,Killed
+adder_add : UOD : adder.cpp : 29 : 23 : 29 : 24 : ,NA,NA,NA,NA,NA,Not killed
+,,,,,,Mutants killed = 19/31 = 61.29%

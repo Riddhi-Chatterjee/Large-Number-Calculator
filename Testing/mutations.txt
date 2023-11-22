@@ -2,5 +2,61 @@ adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <
 
 adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >
 
-adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >=
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : +
+
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : +
+
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : *
+
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : *
+
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : /
+
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : /
+
+adder_add : ArOR : adder.cpp : 25 : 27 : 25 : 30 : 
+
+adder_add : ArOR : adder.cpp : 33 : 27 : 33 : 30 : 
+
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 32 : 
+
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 32 : 
+
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : %
+
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : %
+
+adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : ==
+
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : ==
+
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : -
+
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : /
+
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : +
+
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : *
+
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 75 : 
+
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : *
+
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : %
+
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : -
+
+adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : == 
+
+adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : >=
+
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : abs(p1)
+
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : (-abs(p1))
+
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : +
+
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : *
+
+adder_add : UOD : adder.cpp : 29 : 23 : 29 : 24 : 
 
