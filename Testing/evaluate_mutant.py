@@ -47,7 +47,7 @@ def test_original_program(tests_dict):
             try:
                 #Create the executable file corresponding to the key:
                 if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp"]
+                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp", "../approximator.cpp"]
                     subprocess.check_output(cmd1, text=True)
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
@@ -98,7 +98,7 @@ def test_original_program(tests_dict):
             try:
                 #Create the executable file corresponding to the key:
                 if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp"]
+                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp", "../subtractor.cpp"]
                     subprocess.check_output(cmd1, text=True)
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
@@ -210,7 +210,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
     elif key.split("_")[0] == "baseConverter":
         try:
             #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp"]
+            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp", "../approximator.cpp"]
             subprocess.check_output(cmd1, text=True)
             executable = key.split("_")[0]+"_test"
             
@@ -282,7 +282,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
     elif key.split("_")[0] == "squareRoot":
         try:
             #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp"]
+            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp", "../subtractor.cpp"]
             subprocess.check_output(cmd1, text=True)
             executable = key.split("_")[0]+"_test"
             
