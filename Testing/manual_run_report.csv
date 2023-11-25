@@ -4,4 +4,8 @@ adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >,adder_add : adder.cpp : 10.3
 adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >=,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
 adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
 adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636,SUCCESS,FAILURE,22.636,10.343,Killed
-,,,,,,Mutants killed = 5/5 = 100.0%
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,,,,,,Not killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3.0,Killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,,,,,,Not killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3,Killed
+,,,,,,Mutants killed = 7/9 = 77.78%
