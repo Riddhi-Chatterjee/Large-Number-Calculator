@@ -3,9 +3,9 @@ adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,adder_add : adder.cpp : 10.3
 adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3,Killed
 approximator_roundOff : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : -,NA,NA,NA,NA,NA,Not killed
 approximator_roundOff : COR : approximator.cpp : 21 : 19 : 21 : 21 : ^,approximator_roundOff : approximator.cpp : 12243324.58 : 10 : 5 : 12243324.58000,FAILURE,SUCCESS,12243324.58,12243324.58000,Killed
-approximator_vecInverter : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : %,"approximator_vecInverter : approximator.cpp : 1,2,3,4,5 : 5,4,3,2,1",SUCCESS,FAILURE,"5,4,3,2,1",Command '['./approximator,Killed
-baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1",Command '['./baseConverter,Killed
-baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1",Command '['./baseConverter,Killed
+approximator_vecInverter : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : %,"approximator_vecInverter : approximator.cpp : 1,2,3,4,5 : 5,4,3,2,1",SUCCESS,FAILURE,"5,4,3,2,1","Command '['./approximator_test', 'vecInverter', '1,2,3,4,5', '5,4,3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./baseConverter_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./baseConverter_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
 baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : *,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,3,2",Killed
 divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : >,divider_divide : divider.cpp : 10.24 : 2 : 10 : 2 : 5.12,SUCCESS,FAILURE,5.12,51,Killed
 divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : <=,divider_divide : divider.cpp : 10.24 : 2 : 10 : 2 : 5.12,SUCCESS,FAILURE,5.12,00,Killed

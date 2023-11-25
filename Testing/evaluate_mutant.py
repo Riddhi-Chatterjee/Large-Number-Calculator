@@ -182,8 +182,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Differentiating_test_case"] = test
                     results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                     results["Test_result_of_mutant"] = test_result.split("_")[0]
-                    results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                    results["Test_output_of_mutant"] = test_result.split("_")[1]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
                     
@@ -196,8 +196,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                 results["Differentiating_test_case"] = test
                 results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                 results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                 results["Mutant_status"] = "Killed"
     
     elif key.split("_")[0] == "approximator":
@@ -216,8 +216,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Differentiating_test_case"] = test
                     results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                     results["Test_result_of_mutant"] = test_result.split("_")[0]
-                    results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                    results["Test_output_of_mutant"] = test_result.split("_")[1]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
                     
@@ -230,8 +230,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                 results["Differentiating_test_case"] = test
                 results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                 results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                 results["Mutant_status"] = "Killed"
             
     elif key.split("_")[0] == "baseConverter":
@@ -250,8 +250,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Differentiating_test_case"] = test
                     results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                     results["Test_result_of_mutant"] = test_result.split("_")[0]
-                    results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                    results["Test_output_of_mutant"] = test_result.split("_")[1]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
                     
@@ -264,8 +264,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                 results["Differentiating_test_case"] = test
                 results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                 results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                 results["Mutant_status"] = "Killed"      
     
     elif key.split("_")[0] == "divider":
@@ -284,8 +284,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Differentiating_test_case"] = test
                     results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                     results["Test_result_of_mutant"] = test_result.split("_")[0]
-                    results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                    results["Test_output_of_mutant"] = test_result.split("_")[1]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
                     
@@ -298,8 +298,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                 results["Differentiating_test_case"] = test
                 results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                 results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                 results["Mutant_status"] = "Killed"
             
     elif key.split("_")[0] == "multiplier":
@@ -318,8 +318,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Differentiating_test_case"] = test
                     results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                     results["Test_result_of_mutant"] = test_result.split("_")[0]
-                    results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                    results["Test_output_of_mutant"] = test_result.split("_")[1]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
                     
@@ -332,8 +332,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                 results["Differentiating_test_case"] = test
                 results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                 results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                 results["Mutant_status"] = "Killed"
     
     elif key.split("_")[0] == "squareRoot":
@@ -352,8 +352,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Differentiating_test_case"] = test
                     results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                     results["Test_result_of_mutant"] = test_result.split("_")[0]
-                    results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                    results["Test_output_of_mutant"] = test_result.split("_")[1]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
                     
@@ -366,8 +366,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                 results["Differentiating_test_case"] = test
                 results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                 results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                 results["Mutant_status"] = "Killed"
     
     elif key.split("_")[0] == "subtractor":
@@ -386,8 +386,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Differentiating_test_case"] = test
                     results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                     results["Test_result_of_mutant"] = test_result.split("_")[0]
-                    results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                    results["Test_output_of_mutant"] = test_result.split("_")[1]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
                     
@@ -400,8 +400,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                 results["Differentiating_test_case"] = test
                 results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
                 results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
-                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                 results["Mutant_status"] = "Killed"
     
     elif key == "":
