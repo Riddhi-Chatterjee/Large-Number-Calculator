@@ -13,14 +13,14 @@ class multiplier //Use an approximator object for performing rounding off operat
     approximator *apx;
     adder *a;
     subtractor *s;
-    void truncate(vector<int> &v);
-    void vecInverter(vector<int> &v);
-    void leftshift(struct Number &num, int t);
-    struct Number karatsuba(vector<int> &num1, vector<int> &num2, int base, int precision);
 
     public :
     multiplier();
     ~multiplier();
+    void truncate(vector<int> &v);
+    void vecInverter(vector<int> &v);
+    void leftshift(struct Number &num, int t);
+    struct Number karatsuba(vector<int> &num1, vector<int> &num2, int base, int precision);
     struct Number multiply(struct Number &num1, struct Number &num2, int base, int precision);
     
 };

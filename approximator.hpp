@@ -7,10 +7,8 @@
 using namespace std;
 class approximator
 {
-    private :
-    void vecInverter(vector<int> &v);
-
     public :
     void roundOff(struct Number &num, int base, int precision);
+    void vecInverter(vector<int> &v);
     
 };
