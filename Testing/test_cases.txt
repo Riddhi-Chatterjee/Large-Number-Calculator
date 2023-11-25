@@ -2,3 +2,14 @@ adder_add : adder.cpp : 10.342 : 12.233 : 10 : 3 : 22.575
 adder_add : adder.cpp : 49590438690859890359450489.5890488490686048356 : 4905809346038609736798374698.2852676490379349342 : 10 : 19 : 4955399784729469627157825187.8743164981065397698
 adder_add : adder.cpp : 10.34259608 : 12.2943 : 10 : 3 : 22.636
 adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3
+approximator_roundOff : approximator.cpp : 12243324.58 : 10 : 5 : 12243324.58000
+approximator_roundOff : approximator.cpp : 12243324.5894589435954 : 10 : 5 : 12243324.58945
+approximator_vecInverter : approximator.cpp : 1,2,3,4,5 : 5,4,3,2,1
+baseConverter_convertToTen : baseConverter.cpp : 10 : 2 : 2 : 2.00
+baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0 : 0 : 1 : 2 : 2
+baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1
+baseConverter_convertFromTen : baseConverter.cpp : 16 : 2 : 0 : 10000
+baseConverter_DnC_ConverterFromTen : baseConverter.cpp : 1,6 : 0 : 1 : 10 : 2 : 1,0,0,0,0
+divider_divide : divider.cpp : 10.24 : 2 : 10 : 2 : 5.12
+divider_truncate : divider.cpp : 0,0,1,2,3 : 1,2,3
+divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1

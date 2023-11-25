@@ -18,17 +18,11 @@ baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 
 
 baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 : *
 
-baseConverter_vecToStr : AsOR : baseConverter.cpp : 88 : 11 : 88 : 13 : %=
-
 baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /
 
 baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %
 
 baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : *
-
-baseConverter_leftshift : AsOR : baseConverter.cpp : 121 : 21 : 121 : 23 : *=
-
-baseConverter_leftshift : AsOR : baseConverter.cpp : 121 : 21 : 121 : 23 : %=
 
 baseConverter_convertFromTen : ROR : baseConverter.cpp : 136 : 14 : 136 : 15 : >=
 
@@ -46,21 +40,9 @@ divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : <
 
 divider_divide : ArOR : divider.cpp : 119 : 33 : 119 : 34 : -
 
-divider_normalise : ROR : divider.cpp : 130 : 23 : 130 : 24 : <=
-
-divider_leftshift : AsOR : divider.cpp : 156 : 21 : 156 : 23 : /=
-
-divider_leftshift : AsOR : divider.cpp : 156 : 21 : 156 : 23 : *=
-
-divider_leftshift : AsOR : divider.cpp : 156 : 21 : 156 : 23 : %=
-
 divider_truncate : COR : divider.cpp : 164 : 18 : 164 : 20 : ||
 
 divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : <=
-
-divider_rightshift : ArOR : divider.cpp : 184 : 31 : 184 : 32 : *
-
-divider_rightshift : ArOR : divider.cpp : 184 : 31 : 184 : 32 : +
 
 divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : <
 

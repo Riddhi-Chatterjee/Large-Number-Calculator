@@ -18,7 +18,7 @@ def test_original_program(tests_dict):
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
                 for test in tests_dict[key]:
-                    cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                    cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
                 
@@ -35,7 +35,7 @@ def test_original_program(tests_dict):
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
                 for test in tests_dict[key]:
-                    cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                    cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
                 
@@ -52,7 +52,7 @@ def test_original_program(tests_dict):
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
                 for test in tests_dict[key]:
-                    cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                    cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
                 
@@ -69,7 +69,7 @@ def test_original_program(tests_dict):
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
                 for test in tests_dict[key]:
-                    cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                    cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
                 
@@ -86,7 +86,7 @@ def test_original_program(tests_dict):
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
                 for test in tests_dict[key]:
-                    cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                    cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
                 
@@ -103,7 +103,7 @@ def test_original_program(tests_dict):
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
                 for test in tests_dict[key]:
-                    cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                    cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
                 
@@ -120,7 +120,7 @@ def test_original_program(tests_dict):
                     executable_created[key.split("_")[0]+"_tester"] = True
                 
                 for test in tests_dict[key]:
-                    cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                    cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
                 
@@ -167,7 +167,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
             executable = key.split("_")[0]+"_test"
             
             for i, test in enumerate(tests_dict[key]):
-                cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
                     results["Differentiating_test_case"] = test
@@ -191,7 +191,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
             executable = key.split("_")[0]+"_test"
             
             for i, test in enumerate(tests_dict[key]):
-                cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
                     results["Differentiating_test_case"] = test
@@ -215,7 +215,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
             executable = key.split("_")[0]+"_test"
             
             for i, test in enumerate(tests_dict[key]):
-                cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
                     results["Differentiating_test_case"] = test
@@ -239,7 +239,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
             executable = key.split("_")[0]+"_test"
             
             for i, test in enumerate(tests_dict[key]):
-                cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
                     results["Differentiating_test_case"] = test
@@ -263,7 +263,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
             executable = key.split("_")[0]+"_test"
             
             for i, test in enumerate(tests_dict[key]):
-                cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
                     results["Differentiating_test_case"] = test
@@ -287,7 +287,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
             executable = key.split("_")[0]+"_test"
             
             for i, test in enumerate(tests_dict[key]):
-                cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
                     results["Differentiating_test_case"] = test
@@ -311,7 +311,7 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
             executable = key.split("_")[0]+"_test"
             
             for i, test in enumerate(tests_dict[key]):
-                cmd2 = ["./"+key.split("_")[0]+"_test", key.split("_")[1]] + test.split(" : ")[2:]
+                cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
                     results["Differentiating_test_case"] = test
