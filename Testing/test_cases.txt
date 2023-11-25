@@ -7,5 +7,5 @@ approximator_roundOff : approximator.cpp : 12243324.5894589435954 : 10 : 5 : 122
 approximator_vecInverter : approximator.cpp : 1,2,3,4,5 : 5,4,3,2,1
 baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1
 divider_divide : divider.cpp : 10.24 : 2 : 10 : 2 : 5.12
-divider_truncate : divider.cpp : 0,0,1,2,3 : 1,2,3
+divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3
 divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1

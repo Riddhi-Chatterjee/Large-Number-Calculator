@@ -25,6 +25,7 @@ def test_original_program(tests_dict):
             except subprocess.CalledProcessError as e:
                 # Handle any errors that occurred during the command execution
                 print("Subprocess command execution error:", e)
+                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "approximator":
             try:
@@ -42,6 +43,7 @@ def test_original_program(tests_dict):
             except subprocess.CalledProcessError as e:
                 # Handle any errors that occurred during the command execution
                 print("Subprocess command execution error:", e)
+                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "baseConverter":
             try:
@@ -59,6 +61,7 @@ def test_original_program(tests_dict):
             except subprocess.CalledProcessError as e:
                 # Handle any errors that occurred during the command execution
                 print("Subprocess command execution error:", e)
+                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "divider":
             try:
@@ -76,6 +79,7 @@ def test_original_program(tests_dict):
             except subprocess.CalledProcessError as e:
                 # Handle any errors that occurred during the command execution
                 print("Subprocess command execution error:", e)
+                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "multiplier":
             try:
@@ -93,6 +97,7 @@ def test_original_program(tests_dict):
             except subprocess.CalledProcessError as e:
                 # Handle any errors that occurred during the command execution
                 print("Subprocess command execution error:", e)
+                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "squareRoot":
             try:
@@ -110,6 +115,7 @@ def test_original_program(tests_dict):
             except subprocess.CalledProcessError as e:
                 # Handle any errors that occurred during the command execution
                 print("Subprocess command execution error:", e)
+                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "subtractor":
             try:
@@ -127,6 +133,7 @@ def test_original_program(tests_dict):
             except subprocess.CalledProcessError as e:
                 # Handle any errors that occurred during the command execution
                 print("Subprocess command execution error:", e)
+                results[key].append("FAILURE_"+str(e))
         
         elif key == "":
             pass
@@ -160,6 +167,8 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
     results["Mutant_status"] = "Not killed"
     
     if key.split("_")[0] == "adder":
+        i=0
+        test = ""
         try:
             #Create the executable file corresponding to the key:
             cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
@@ -182,8 +191,18 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
         except subprocess.CalledProcessError as e:
             # Handle any errors that occurred during the command execution
             print("Subprocess command execution error:", e)
+            test_result = "FAILURE_"+str(e)
+            if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                results["Differentiating_test_case"] = test
+                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                results["Test_result_of_mutant"] = test_result.split("_")[0]
+                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
+                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Mutant_status"] = "Killed"
     
     elif key.split("_")[0] == "approximator":
+        i=0
+        test = ""
         try:
             #Create the executable file corresponding to the key:
             cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp"]
@@ -206,8 +225,18 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
         except subprocess.CalledProcessError as e:
             # Handle any errors that occurred during the command execution
             print("Subprocess command execution error:", e)
+            test_result = "FAILURE_"+str(e)
+            if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                results["Differentiating_test_case"] = test
+                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                results["Test_result_of_mutant"] = test_result.split("_")[0]
+                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
+                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Mutant_status"] = "Killed"
             
     elif key.split("_")[0] == "baseConverter":
+        i=0
+        test = ""
         try:
             #Create the executable file corresponding to the key:
             cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp", "../approximator.cpp"]
@@ -229,9 +258,19 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
             
         except subprocess.CalledProcessError as e:
             # Handle any errors that occurred during the command execution
-            print("Subprocess command execution error:", e)        
+            print("Subprocess command execution error:", e)
+            test_result = "FAILURE_"+str(e)
+            if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                results["Differentiating_test_case"] = test
+                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                results["Test_result_of_mutant"] = test_result.split("_")[0]
+                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
+                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Mutant_status"] = "Killed"      
     
     elif key.split("_")[0] == "divider":
+        i=0
+        test = ""
         try:
             #Create the executable file corresponding to the key:
             cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
@@ -254,8 +293,18 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
         except subprocess.CalledProcessError as e:
             # Handle any errors that occurred during the command execution
             print("Subprocess command execution error:", e)
+            test_result = "FAILURE_"+str(e)
+            if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                results["Differentiating_test_case"] = test
+                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                results["Test_result_of_mutant"] = test_result.split("_")[0]
+                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
+                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Mutant_status"] = "Killed"
             
     elif key.split("_")[0] == "multiplier":
+        i=0
+        test = ""
         try:
             #Create the executable file corresponding to the key:
             cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../adder.cpp", "../subtractor.cpp"]
@@ -278,8 +327,18 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
         except subprocess.CalledProcessError as e:
             # Handle any errors that occurred during the command execution
             print("Subprocess command execution error:", e)
+            test_result = "FAILURE_"+str(e)
+            if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                results["Differentiating_test_case"] = test
+                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                results["Test_result_of_mutant"] = test_result.split("_")[0]
+                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
+                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Mutant_status"] = "Killed"
     
     elif key.split("_")[0] == "squareRoot":
+        i=0
+        test = ""
         try:
             #Create the executable file corresponding to the key:
             cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp", "../subtractor.cpp"]
@@ -302,8 +361,18 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
         except subprocess.CalledProcessError as e:
             # Handle any errors that occurred during the command execution
             print("Subprocess command execution error:", e)
+            test_result = "FAILURE_"+str(e)
+            if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                results["Differentiating_test_case"] = test
+                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                results["Test_result_of_mutant"] = test_result.split("_")[0]
+                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
+                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Mutant_status"] = "Killed"
     
     elif key.split("_")[0] == "subtractor":
+        i=0
+        test = ""
         try:
             #Create the executable file corresponding to the key:
             cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
@@ -326,6 +395,14 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
         except subprocess.CalledProcessError as e:
             # Handle any errors that occurred during the command execution
             print("Subprocess command execution error:", e)
+            test_result = "FAILURE_"+str(e)
+            if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                results["Differentiating_test_case"] = test
+                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                results["Test_result_of_mutant"] = test_result.split("_")[0]
+                results["Test_output_of_original_program"] = orig_prog_results[i].split("_")[1]
+                results["Test_output_of_mutant"] = test_result.split("_")[1]
+                results["Mutant_status"] = "Killed"
     
     elif key == "":
         pass
