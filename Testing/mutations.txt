@@ -8,29 +8,11 @@ approximator_roundOff : COR : approximator.cpp : 21 : 19 : 21 : 21 : ^
 
 approximator_vecInverter : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : %
 
-baseConverter_convertToTen : ArOR : baseConverter.cpp : 18 : 22 : 18 : 23 : +
-
-baseConverter_convertToTen : ROR : baseConverter.cpp : 27 : 14 : 27 : 15 : >=
-
-baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 17 : 39 : 18 : -
-
-baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 : %
-
-baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 : *
-
 baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /
 
 baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %
 
 baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : *
-
-baseConverter_convertFromTen : ROR : baseConverter.cpp : 136 : 14 : 136 : 15 : >=
-
-baseConverter_convertFromTen : ROR : baseConverter.cpp : 136 : 14 : 136 : 15 : >
-
-baseConverter_DnC_ConverterFromTen : ArOR : baseConverter.cpp : 188 : 18 : 188 : 19 : /
-
-baseConverter_DnC_ConverterFromTen : ArOR : baseConverter.cpp : 188 : 18 : 188 : 19 : %
 
 divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : >
 
