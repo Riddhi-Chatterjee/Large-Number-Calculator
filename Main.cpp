@@ -33,16 +33,17 @@ bool isZero(string b);
 
 int main()
 {
-    int INTERNAL_BASE_POWER; //Base = 2^(INTERNAL_BASE_POWER) for internal computations
+    //int INTERNAL_BASE_POWER; //Base = 2^(INTERNAL_BASE_POWER) for internal computations
     //cout<<"For internal computations, the base is 2^m. Enter the value of m:"<<endl;
     //cin>>INTERNAL_BASE_POWER;
-    INTERNAL_BASE_POWER = 10; //Setting INTERNAL_BASE_POWER to 10 for optimal performance
+    //INTERNAL_BASE_POWER = 10;
     //cout<<endl;
 
     int PRECISION_PAD_DIGITS = 6; //Padding extra 6 digits of precision as compared to the required precision.
 
     int iBase;
-    iBase = (int)pow(2, INTERNAL_BASE_POWER); //The base for internal computations
+    //iBase = (int)pow(2, INTERNAL_BASE_POWER); //The base for internal computations
+    iBase=10;
 
     int choice;
     cout<<endl;
