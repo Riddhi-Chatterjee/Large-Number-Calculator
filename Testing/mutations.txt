@@ -1,32 +1,8 @@
-Main_calculator : ROR : adder.cpp : 23 : 10 : 23 : 11 : <
+Main_calculator : IUOI : Main.cpp : 330 : 59 : 330 : 59 : -
 
-Main_calculator : COR : adder.cpp : 112 : 18 : 112 : 20 : ||
+Main_calculator : IPEX : Main.cpp : 330 : 40 : 330 : 50 : num2, num1
 
-Main_calculator : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : -
+Main_calculator : IMCD : Main.cpp : 369 : 16 : 369 : 33 : true
 
-Main_calculator : COR : approximator.cpp : 21 : 19 : 21 : 21 : ^
-
-Main_calculator : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : %
-
-Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /
-
-Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %
-
-Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : *
-
-Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : >
-
-Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : <=
-
-Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : <
-
-Main_calculator : ArOR : divider.cpp : 119 : 33 : 119 : 34 : -
-
-Main_calculator : COR : divider.cpp : 164 : 18 : 164 : 20 : ||
-
-Main_calculator : ROR : divider.cpp : 164 : 26 : 164 : 28 : <=
-
-Main_calculator : ROR : divider.cpp : 193 : 25 : 193 : 27 : <
-
-Main_calculator : ROR : divider.cpp : 193 : 25 : 193 : 27 : <=
+Main_calculator : IREM : Main.cpp : 920 : 12 : 920 : 12 : !
 

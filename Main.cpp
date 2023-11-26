@@ -39,7 +39,7 @@ int main()
     //INTERNAL_BASE_POWER = 10;
     //cout<<endl;
 
-    int PRECISION_PAD_DIGITS = 6; //Padding extra 6 digits of precision as compared to the required precision.
+    int PRECISION_PAD_DIGITS = 0; //Padding extra 6 digits of precision as compared to the required precision.
 
     int iBase;
     //iBase = (int)pow(2, INTERNAL_BASE_POWER); //The base for internal computations

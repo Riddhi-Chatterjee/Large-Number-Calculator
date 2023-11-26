@@ -1,6 +1,96 @@
 Mutant,Differentiating_test_case,Test_result_of_original_program,Test_result_of_mutant,Test_output_of_original_program,Test_output_of_mutant,Mutant_status
-Main_calculator : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,NA,NA,NA,NA,NA,Not killed
-Main_calculator : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
+Main_calculator : IUOI : Main.cpp : 330 : 59 : 330 : 59 : -,Main_calculator : Main.cpp : 3 : 984509893459848784509814950984954545.459834950899043868094850984 : 498309459837496093489045394509.48756989682586956089665 : 20 : axb = 490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing axb...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+axb = 490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing axb...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+axb = 4905905932146480758048331070587584834498320414000-5368709120-5368709124000000000026214400. 
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+"Main_calculator : IPEX : Main.cpp : 330 : 40 : 330 : 50 : num2, num1",NA,NA,NA,NA,NA,Not killed
+Main_calculator : IMCD : Main.cpp : 369 : 16 : 369 : 33 : true,Main_calculator : Main.cpp : 4 : 45980948096804396093406989580923504095809348609834692689795861238749873958.458173458709849347646348758794698093457987 : 4578374598709++83469809183456786567987958693849580346.45683475879360983498748579874598036625748589845 : 40 : ERROR: Input number can't contain more than one + symbols,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a/b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+ERROR: Input number can't contain more than one + symbols
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a/b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a/b = 1004307251524928575550.4269626761648556372793886058250793848892
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : IREM : Main.cpp : 920 : 12 : 920 : 12 : !,Main_calculator : Main.cpp : 1 : 4958744980958094850910809948509.59840955849859018405 : 548759874.487494 : 20 : a+b = 4958744980958094850911358708384.08590355849859018405,SUCCESS,FAILURE,"
 Choose an operation:
 [1]: Add two numbers
 [2]: Subtract two numbers
@@ -18,7 +108,7 @@ Enter the number 'b' as a decimal string:
 
 Enter the number of digits of precision required:
 
-a+b = 22.574
+a+b = 4958744980958094850911358708384.08590355849859018405
 
 Completed in: 0 Hours, 0 Minutes, 0 Seconds
 
@@ -37,540 +127,6 @@ Computing a+b...
 
 Enter the number 'a' as a decimal string:
 
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-libc++abi: terminating due to uncaught exception of type std::length_error: vector
-",Killed
-Main_calculator : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : -,NA,NA,NA,NA,NA,Not killed
-Main_calculator : COR : approximator.cpp : 21 : 19 : 21 : 21 : ^,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.5749
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
 Process finished with exit code 0
 ",Killed
-Main_calculator : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : %,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-",Killed
-Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-",Killed
-Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-",Killed
-Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : *,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 102.640
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-",Killed
-Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : >,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 0.002
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-",Killed
-Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : <=,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-libc++abi: terminating due to uncaught exception of type std::length_error: vector
-",Killed
-Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : <,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-libc++abi: terminating due to uncaught exception of type std::length_error: vector
-",Killed
-Main_calculator : ArOR : divider.cpp : 119 : 33 : 119 : 34 : -,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 2367160319.99
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-",Killed
-Main_calculator : COR : divider.cpp : 164 : 18 : 164 : 20 : ||,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-libc++abi: terminating due to uncaught exception of type std::length_error: vector
-",Killed
-Main_calculator : ROR : divider.cpp : 164 : 26 : 164 : 28 : <=,NA,NA,NA,NA,NA,Not killed
-Main_calculator : ROR : divider.cpp : 193 : 25 : 193 : 27 : <,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-libc++abi: terminating due to uncaught exception of type std::length_error: vector
-",Killed
-Main_calculator : ROR : divider.cpp : 193 : 25 : 193 : 27 : <=,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-a+b = 22.574
-
-Completed in: 0 Hours, 0 Minutes, 0 Seconds
-
-Process finished with exit code 0
-","
-Choose an operation:
-[1]: Add two numbers
-[2]: Subtract two numbers
-[3]: Multiply two numbers
-[4]: Divide two numbers
-[5]: Compute square root of a number
-[6]: Compute the value of PI
-
-
-Computing a+b...
-
-Enter the number 'a' as a decimal string:
-
-Enter the number 'b' as a decimal string:
-
-Enter the number of digits of precision required:
-
-",Killed
-,,,,,,Mutants killed = 13/16 = 81.25%
+,,,,,,Mutants killed = 3/4 = 75.0%
