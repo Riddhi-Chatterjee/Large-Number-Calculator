@@ -29,6 +29,7 @@ string ABS(string s);
 bool validateStrNum(string &s);
 bool validateStrPrec(string &s);
 bool absGeq(string a, string b);
+bool isZero(string b);
 
 int main()
 {
@@ -364,7 +365,7 @@ int main()
             cin>>b;
             cout<<endl;
 
-            if(validateStrNum(b))
+            if(validateStrNum(b) && !isZero(b))
             {
                 string str_P_10;
                 cout<<"Enter the number of digits of precision required:"<<endl;
@@ -1011,4 +1012,17 @@ bool absGeq(string a, string b)
     }
 
     return (a.size() >= b.size());
+}
+
+bool isZero(string b)
+{
+    if(b == "0" || b == "0.0")
+    {
+        cout<<"ERROR: Can't divide by zero!!"<<endl<<endl;
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }

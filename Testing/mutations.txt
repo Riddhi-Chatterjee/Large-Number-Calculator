@@ -1,32 +1,32 @@
-adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <
+Main_calculator : ROR : adder.cpp : 23 : 10 : 23 : 11 : <
 
-adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||
+Main_calculator : COR : adder.cpp : 112 : 18 : 112 : 20 : ||
 
-approximator_roundOff : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : -
+Main_calculator : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : -
 
-approximator_roundOff : COR : approximator.cpp : 21 : 19 : 21 : 21 : ^
+Main_calculator : COR : approximator.cpp : 21 : 19 : 21 : 21 : ^
 
-approximator_vecInverter : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : %
+Main_calculator : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : %
 
-baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /
+Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /
 
-baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %
+Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %
 
-baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : *
+Main_calculator : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : *
 
-divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : >
+Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : >
 
-divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : <=
+Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : <=
 
-divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : <
+Main_calculator : ROR : divider.cpp : 115 : 23 : 115 : 25 : <
 
-divider_divide : ArOR : divider.cpp : 119 : 33 : 119 : 34 : -
+Main_calculator : ArOR : divider.cpp : 119 : 33 : 119 : 34 : -
 
-divider_truncate : COR : divider.cpp : 164 : 18 : 164 : 20 : ||
+Main_calculator : COR : divider.cpp : 164 : 18 : 164 : 20 : ||
 
-divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : <=
+Main_calculator : ROR : divider.cpp : 164 : 26 : 164 : 28 : <=
 
-divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : <
+Main_calculator : ROR : divider.cpp : 193 : 25 : 193 : 27 : <
 
-divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : <=
+Main_calculator : ROR : divider.cpp : 193 : 25 : 193 : 27 : <=
 

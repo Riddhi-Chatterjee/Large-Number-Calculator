@@ -7,5 +7,48 @@ adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,adder_add : adder.cpp : 10.3
 adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,,,,,,Not killed
 adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3.0,Killed
 adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,,,,,,Not killed
-adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3,Killed
-,,,,,,Mutants killed = 7/9 = 77.78%
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3.0,Killed
+Main_calculator : ROR : divider.cpp : 193 : 25 : 193 : 27 : <,Main_calculator : Main.cpp : 1 : 10.342 : 12.233 : 3 : a+b = 22.575,FAILURE,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 22.574
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+libc++abi: terminating due to uncaught exception of type std::length_error: vector
+",Killed
+,,,,,,Mutants killed = 8/10 = 80.0%

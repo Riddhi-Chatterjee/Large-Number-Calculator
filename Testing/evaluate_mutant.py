@@ -10,130 +10,197 @@ def test_original_program(tests_dict):
         results[key] = []
         
         if key.split("_")[0] == "adder":
-            try:
-                #Create the executable file corresponding to the key:
-                if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
-                    subprocess.check_output(cmd1, text=True)
-                    executable_created[key.split("_")[0]+"_tester"] = True
-                
-                for test in tests_dict[key]:
+            #Create the executable file corresponding to the key:
+            if(key.split("_")[0]+"_tester" not in executable_created.keys()):
+                cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
+                subprocess.check_output(cmd1, text=True)
+                executable_created[key.split("_")[0]+"_tester"] = True
+            
+            for test in tests_dict[key]:
+                try:
                     cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occurred during the command execution
+                    print("Subprocess command execution error:", e)
+                    results[key].append("FAILURE_"+str(e))
                 
-            except subprocess.CalledProcessError as e:
-                # Handle any errors that occurred during the command execution
-                print("Subprocess command execution error:", e)
-                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "approximator":
-            try:
-                #Create the executable file corresponding to the key:
-                if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp"]
-                    subprocess.check_output(cmd1, text=True)
-                    executable_created[key.split("_")[0]+"_tester"] = True
-                
-                for test in tests_dict[key]:
+            #Create the executable file corresponding to the key:
+            if(key.split("_")[0]+"_tester" not in executable_created.keys()):
+                cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp"]
+                subprocess.check_output(cmd1, text=True)
+                executable_created[key.split("_")[0]+"_tester"] = True
+            
+            for test in tests_dict[key]:
+                try:
                     cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occurred during the command execution
+                    print("Subprocess command execution error:", e)
+                    results[key].append("FAILURE_"+str(e))
                 
-            except subprocess.CalledProcessError as e:
-                # Handle any errors that occurred during the command execution
-                print("Subprocess command execution error:", e)
-                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "baseConverter":
-            try:
-                #Create the executable file corresponding to the key:
-                if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp", "../approximator.cpp"]
-                    subprocess.check_output(cmd1, text=True)
-                    executable_created[key.split("_")[0]+"_tester"] = True
-                
-                for test in tests_dict[key]:
+            #Create the executable file corresponding to the key:
+            if(key.split("_")[0]+"_tester" not in executable_created.keys()):
+                cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp", "../approximator.cpp"]
+                subprocess.check_output(cmd1, text=True)
+                executable_created[key.split("_")[0]+"_tester"] = True
+            
+            for test in tests_dict[key]:
+                try:
                     cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occurred during the command execution
+                    print("Subprocess command execution error:", e)
+                    results[key].append("FAILURE_"+str(e))
                 
-            except subprocess.CalledProcessError as e:
-                # Handle any errors that occurred during the command execution
-                print("Subprocess command execution error:", e)
-                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "divider":
-            try:
-                #Create the executable file corresponding to the key:
-                if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
-                    subprocess.check_output(cmd1, text=True)
-                    executable_created[key.split("_")[0]+"_tester"] = True
-                
-                for test in tests_dict[key]:
+            #Create the executable file corresponding to the key:
+            if(key.split("_")[0]+"_tester" not in executable_created.keys()):
+                cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
+                subprocess.check_output(cmd1, text=True)
+                executable_created[key.split("_")[0]+"_tester"] = True
+            
+            for test in tests_dict[key]:
+                try:
                     cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occurred during the command execution
+                    print("Subprocess command execution error:", e)
+                    results[key].append("FAILURE_"+str(e))
                 
-            except subprocess.CalledProcessError as e:
-                # Handle any errors that occurred during the command execution
-                print("Subprocess command execution error:", e)
-                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "multiplier":
-            try:
-                #Create the executable file corresponding to the key:
-                if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../adder.cpp", "../subtractor.cpp"]
-                    subprocess.check_output(cmd1, text=True)
-                    executable_created[key.split("_")[0]+"_tester"] = True
-                
-                for test in tests_dict[key]:
+            #Create the executable file corresponding to the key:
+            if(key.split("_")[0]+"_tester" not in executable_created.keys()):
+                cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../adder.cpp", "../subtractor.cpp"]
+                subprocess.check_output(cmd1, text=True)
+                executable_created[key.split("_")[0]+"_tester"] = True
+            
+            for test in tests_dict[key]:
+                try:
                     cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occurred during the command execution
+                    print("Subprocess command execution error:", e)
+                    results[key].append("FAILURE_"+str(e))
                 
-            except subprocess.CalledProcessError as e:
-                # Handle any errors that occurred during the command execution
-                print("Subprocess command execution error:", e)
-                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "squareRoot":
-            try:
-                #Create the executable file corresponding to the key:
-                if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp", "../subtractor.cpp"]
-                    subprocess.check_output(cmd1, text=True)
-                    executable_created[key.split("_")[0]+"_tester"] = True
-                
-                for test in tests_dict[key]:
+            #Create the executable file corresponding to the key:
+            if(key.split("_")[0]+"_tester" not in executable_created.keys()):
+                cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp", "../subtractor.cpp"]
+                subprocess.check_output(cmd1, text=True)
+                executable_created[key.split("_")[0]+"_tester"] = True
+            
+            for test in tests_dict[key]:
+                try:
                     cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occurred during the command execution
+                    print("Subprocess command execution error:", e)
+                    results[key].append("FAILURE_"+str(e))
                 
-            except subprocess.CalledProcessError as e:
-                # Handle any errors that occurred during the command execution
-                print("Subprocess command execution error:", e)
-                results[key].append("FAILURE_"+str(e))
                 
         elif key.split("_")[0] == "subtractor":
-            try:
-                #Create the executable file corresponding to the key:
-                if(key.split("_")[0]+"_tester" not in executable_created.keys()):
-                    cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
-                    subprocess.check_output(cmd1, text=True)
-                    executable_created[key.split("_")[0]+"_tester"] = True
-                
-                for test in tests_dict[key]:
+            #Create the executable file corresponding to the key:
+            if(key.split("_")[0]+"_tester" not in executable_created.keys()):
+                cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
+                subprocess.check_output(cmd1, text=True)
+                executable_created[key.split("_")[0]+"_tester"] = True
+            
+            for test in tests_dict[key]:
+                try:
                     cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                     test_result = subprocess.check_output(cmd2, text=True)
                     results[key].append(test_result)
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occurred during the command execution
+                    print("Subprocess command execution error:", e)
+                    results[key].append("FAILURE_"+str(e))
                 
-            except subprocess.CalledProcessError as e:
-                # Handle any errors that occurred during the command execution
-                print("Subprocess command execution error:", e)
-                results[key].append("FAILURE_"+str(e))
+        
+        elif key == "Main_calculator":
+            #Create the executable file corresponding to the key:
+            if(key.split("_")[0]+"_tester" not in executable_created.keys()):
+                cmd1 = ["g++", "-o", key.split("_")[0]+"_test", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../approximator.cpp", "../baseConverter.cpp", "../divider.cpp", "../multiplier.cpp", "../squareRoot.cpp", "../subtractor.cpp"]
+                subprocess.check_output(cmd1, text=True)
+                executable_created[key.split("_")[0]+"_tester"] = True
+            
+            for test in tests_dict[key]:
+                try:
+                
+                    #Get the stdin values:
+                    input_values = " ".join(test.split(" : ")[2:-1])
+                    
+                    #Get the expected output:
+                    expected_output = test.split(" : ")[-1]
+                    
+                    # Run the C++ program using subprocess
+                    process = subprocess.Popen("./"+key.split("_")[0]+"_test", stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                    
+                    # Provide input to the C++ program
+                    process.stdin.write(input_values)
+                    process.stdin.flush()
+
+                    # Wait for the C++ program to finish and get the output
+                    output, error = process.communicate() #error is None if there is no error
+                    
+                    # Close the input stream
+                    process.stdin.close()
+                    
+                    # Check whether the test case passed or not
+                    test_result = ""
+                    if expected_output not in str(output):
+                        test_result = "FAILURE_"+str(output)+str(error)
+                    else:
+                        if error == "":
+                            if "ERROR: " in expected_output:
+                                output = str(output)
+                                truncated_output = output.split("ERROR: ")[1].split("\n\n")[0]
+                                expected_output = expected_output.split("ERROR: ")[1]
+                                
+                                if truncated_output == expected_output:
+                                    test_result = "SUCCESS_"+output
+                                else:
+                                    test_result = "FAILURE_"+output
+                            else:
+                                computation = expected_output.split(" = ")[0]
+                                computation = computation + " = "
+                                output = str(output)
+                                truncated_output = output.split(computation)[1].split("\n\n")[0]
+                                truncated_output = computation + truncated_output
+                                
+                                if truncated_output == expected_output:
+                                    test_result = "SUCCESS_"+output
+                                else:
+                                    test_result = "FAILURE_"+output
+                        else:
+                            test_result = "FAILURE_"+str(output)+str(error)
+                    
+                    results[key].append(test_result)
+                
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occurred during the command execution
+                    print("Subprocess command execution error:", e)
+                    results[key].append("FAILURE_"+str(e))
+                
+                
         
         elif key == "":
             pass
@@ -167,15 +234,13 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
     results["Mutant_status"] = "Not killed"
     
     if key.split("_")[0] == "adder":
-        i=0
-        test = ""
-        try:
-            #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
-            subprocess.check_output(cmd1, text=True)
-            executable = key.split("_")[0]+"_test"
-            
-            for i, test in enumerate(tests_dict[key]):
+        #Create the executable file corresponding to the key:
+        cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
+        subprocess.check_output(cmd1, text=True)
+        executable = key.split("_")[0]+"_test"
+        
+        for i, test in enumerate(tests_dict[key]):
+            try:
                 cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
@@ -186,30 +251,27 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
-                    
-            
-        except subprocess.CalledProcessError as e:
-            # Handle any errors that occurred during the command execution
-            print("Subprocess command execution error:", e)
-            test_result = "FAILURE_"+str(e)
-            if test_result != orig_prog_results[i]: #Mutant killed by this test case
-                results["Differentiating_test_case"] = test
-                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
-                results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
-                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
-                results["Mutant_status"] = "Killed"
+            except subprocess.CalledProcessError as e:
+                # Handle any errors that occurred during the command execution
+                print("Subprocess command execution error:", e)
+                test_result = "FAILURE_"+str(e)
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed"
+                    break
     
     elif key.split("_")[0] == "approximator":
-        i=0
-        test = ""
-        try:
-            #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp"]
-            subprocess.check_output(cmd1, text=True)
-            executable = key.split("_")[0]+"_test"
-            
-            for i, test in enumerate(tests_dict[key]):
+        #Create the executable file corresponding to the key:
+        cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp"]
+        subprocess.check_output(cmd1, text=True)
+        executable = key.split("_")[0]+"_test"
+        
+        for i, test in enumerate(tests_dict[key]):
+            try:
                 cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
@@ -220,30 +282,27 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
-                    
-            
-        except subprocess.CalledProcessError as e:
-            # Handle any errors that occurred during the command execution
-            print("Subprocess command execution error:", e)
-            test_result = "FAILURE_"+str(e)
-            if test_result != orig_prog_results[i]: #Mutant killed by this test case
-                results["Differentiating_test_case"] = test
-                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
-                results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
-                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
-                results["Mutant_status"] = "Killed"
+            except subprocess.CalledProcessError as e:
+                # Handle any errors that occurred during the command execution
+                print("Subprocess command execution error:", e)
+                test_result = "FAILURE_"+str(e)
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed"
+                    break
             
     elif key.split("_")[0] == "baseConverter":
-        i=0
-        test = ""
-        try:
-            #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp", "../approximator.cpp"]
-            subprocess.check_output(cmd1, text=True)
-            executable = key.split("_")[0]+"_test"
-            
-            for i, test in enumerate(tests_dict[key]):
+        #Create the executable file corresponding to the key:
+        cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../divider.cpp", "../approximator.cpp"]
+        subprocess.check_output(cmd1, text=True)
+        executable = key.split("_")[0]+"_test"
+        
+        for i, test in enumerate(tests_dict[key]):
+            try:
                 cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
@@ -253,31 +312,28 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
                     results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
-                    break
-                    
-            
-        except subprocess.CalledProcessError as e:
-            # Handle any errors that occurred during the command execution
-            print("Subprocess command execution error:", e)
-            test_result = "FAILURE_"+str(e)
-            if test_result != orig_prog_results[i]: #Mutant killed by this test case
-                results["Differentiating_test_case"] = test
-                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
-                results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
-                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
-                results["Mutant_status"] = "Killed"      
+                    break   
+            except subprocess.CalledProcessError as e:
+                # Handle any errors that occurred during the command execution
+                print("Subprocess command execution error:", e)
+                test_result = "FAILURE_"+str(e)
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed" 
+                    break  
     
     elif key.split("_")[0] == "divider":
-        i=0
-        test = ""
-        try:
-            #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
-            subprocess.check_output(cmd1, text=True)
-            executable = key.split("_")[0]+"_test"
-            
-            for i, test in enumerate(tests_dict[key]):
+        #Create the executable file corresponding to the key:
+        cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
+        subprocess.check_output(cmd1, text=True)
+        executable = key.split("_")[0]+"_test"
+        
+        for i, test in enumerate(tests_dict[key]):
+            try:
                 cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
@@ -288,30 +344,27 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
-                    
-            
-        except subprocess.CalledProcessError as e:
-            # Handle any errors that occurred during the command execution
-            print("Subprocess command execution error:", e)
-            test_result = "FAILURE_"+str(e)
-            if test_result != orig_prog_results[i]: #Mutant killed by this test case
-                results["Differentiating_test_case"] = test
-                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
-                results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
-                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
-                results["Mutant_status"] = "Killed"
+            except subprocess.CalledProcessError as e:
+                # Handle any errors that occurred during the command execution
+                print("Subprocess command execution error:", e)
+                test_result = "FAILURE_"+str(e)
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed"
+                    break
             
     elif key.split("_")[0] == "multiplier":
-        i=0
-        test = ""
-        try:
-            #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../adder.cpp", "../subtractor.cpp"]
-            subprocess.check_output(cmd1, text=True)
-            executable = key.split("_")[0]+"_test"
-            
-            for i, test in enumerate(tests_dict[key]):
+        #Create the executable file corresponding to the key:
+        cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../adder.cpp", "../subtractor.cpp"]
+        subprocess.check_output(cmd1, text=True)
+        executable = key.split("_")[0]+"_test"
+        
+        for i, test in enumerate(tests_dict[key]):
+            try:
                 cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
@@ -322,30 +375,27 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
-                    
-            
-        except subprocess.CalledProcessError as e:
-            # Handle any errors that occurred during the command execution
-            print("Subprocess command execution error:", e)
-            test_result = "FAILURE_"+str(e)
-            if test_result != orig_prog_results[i]: #Mutant killed by this test case
-                results["Differentiating_test_case"] = test
-                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
-                results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
-                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
-                results["Mutant_status"] = "Killed"
+            except subprocess.CalledProcessError as e:
+                # Handle any errors that occurred during the command execution
+                print("Subprocess command execution error:", e)
+                test_result = "FAILURE_"+str(e)
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed"
+                    break
     
     elif key.split("_")[0] == "squareRoot":
-        i=0
-        test = ""
-        try:
-            #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp", "../subtractor.cpp"]
-            subprocess.check_output(cmd1, text=True)
-            executable = key.split("_")[0]+"_test"
-            
-            for i, test in enumerate(tests_dict[key]):
+        #Create the executable file corresponding to the key:
+        cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp", "../baseConverter.cpp", "../multiplier.cpp", "../divider.cpp", "../adder.cpp", "../subtractor.cpp"]
+        subprocess.check_output(cmd1, text=True)
+        executable = key.split("_")[0]+"_test"
+        
+        for i, test in enumerate(tests_dict[key]):
+            try:
                 cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
@@ -356,30 +406,27 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
-                    
-            
-        except subprocess.CalledProcessError as e:
-            # Handle any errors that occurred during the command execution
-            print("Subprocess command execution error:", e)
-            test_result = "FAILURE_"+str(e)
-            if test_result != orig_prog_results[i]: #Mutant killed by this test case
-                results["Differentiating_test_case"] = test
-                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
-                results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
-                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
-                results["Mutant_status"] = "Killed"
+            except subprocess.CalledProcessError as e:
+                # Handle any errors that occurred during the command execution
+                print("Subprocess command execution error:", e)
+                test_result = "FAILURE_"+str(e)
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed"
+                    break
     
     elif key.split("_")[0] == "subtractor":
-        i=0
-        test = ""
-        try:
-            #Create the executable file corresponding to the key:
-            cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
-            subprocess.check_output(cmd1, text=True)
-            executable = key.split("_")[0]+"_test"
-            
-            for i, test in enumerate(tests_dict[key]):
+        #Create the executable file corresponding to the key:
+        cmd1 = ["g++", "-o", key.split("_")[0]+"_test", key.split("_")[0]+"_tester.cpp", "../"+key.split("_")[0]+".cpp", "../approximator.cpp"]
+        subprocess.check_output(cmd1, text=True)
+        executable = key.split("_")[0]+"_test"
+        
+        for i, test in enumerate(tests_dict[key]):
+            try:
                 cmd2 = ["./"+key.split("_")[0]+"_test", '_'.join(key.split("_")[1:])] + test.split(" : ")[2:]
                 test_result = subprocess.check_output(cmd2, text=True)
                 if test_result != orig_prog_results[i]: #Mutant killed by this test case
@@ -390,20 +437,98 @@ def test_mutant(mutation, tests_dict, orig_prog_test_data):
                     results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
                     results["Mutant_status"] = "Killed"
                     break
-                    
-            
-        except subprocess.CalledProcessError as e:
-            # Handle any errors that occurred during the command execution
-            print("Subprocess command execution error:", e)
-            test_result = "FAILURE_"+str(e)
-            if test_result != orig_prog_results[i]: #Mutant killed by this test case
-                results["Differentiating_test_case"] = test
-                results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
-                results["Test_result_of_mutant"] = test_result.split("_")[0]
-                results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
-                results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
-                results["Mutant_status"] = "Killed"
+            except subprocess.CalledProcessError as e:
+                # Handle any errors that occurred during the command execution
+                print("Subprocess command execution error:", e)
+                test_result = "FAILURE_"+str(e)
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed"
+                    break
     
+    elif key == "Main_calculator":
+        #Create the executable file corresponding to the key:
+        cmd1 = ["g++", "-o", key.split("_")[0]+"_test", "../"+key.split("_")[0]+".cpp", "../adder.cpp", "../approximator.cpp", "../baseConverter.cpp", "../divider.cpp", "../multiplier.cpp", "../squareRoot.cpp", "../subtractor.cpp"]
+        subprocess.check_output(cmd1, text=True)
+        executable = key.split("_")[0]+"_test"
+        
+        for i, test in enumerate(tests_dict[key]):
+            try:
+            
+                #Get the stdin values:
+                input_values = " ".join(test.split(" : ")[2:-1])
+                
+                #Get the expected output:
+                expected_output = test.split(" : ")[-1]
+                
+                # Run the C++ program using subprocess
+                process = subprocess.Popen("./"+key.split("_")[0]+"_test", stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                
+                # Provide input to the C++ program
+                process.stdin.write(input_values)
+                process.stdin.flush()
+
+                # Wait for the C++ program to finish and get the output
+                output, error = process.communicate() #error is None if there is no error
+                
+                # Close the input stream
+                process.stdin.close()
+                
+                # Check whether the test case passed or not
+                test_result = ""
+                if expected_output not in str(output):
+                    test_result = "FAILURE_"+str(output)+str(error)
+                else:
+                    if error == "":
+                        if "ERROR: " in expected_output:
+                            output = str(output)
+                            truncated_output = output.split("ERROR: ")[1].split("\n\n")[0]
+                            expected_output = expected_output.split("ERROR: ")[1]
+                            
+                            if truncated_output == expected_output:
+                                test_result = "SUCCESS_"+output
+                            else:
+                                test_result = "FAILURE_"+output
+                        else:
+                            computation = expected_output.split(" = ")[0]
+                            computation = computation + " = "
+                            output = str(output)
+                            truncated_output = output.split(computation)[1].split("\n\n")[0]
+                            truncated_output = computation + truncated_output
+                            
+                            if truncated_output == expected_output:
+                                test_result = "SUCCESS_"+output
+                            else:
+                                test_result = "FAILURE_"+output
+                    else:
+                        test_result = "FAILURE_"+str(output)+str(error)
+                
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed"
+                    break
+            
+            except subprocess.CalledProcessError as e:
+                # Handle any errors that occurred during the command execution
+                print("Subprocess command execution error:", e)
+                test_result = "FAILURE_"+str(e)
+                if test_result != orig_prog_results[i]: #Mutant killed by this test case
+                    results["Differentiating_test_case"] = test
+                    results["Test_result_of_original_program"] = orig_prog_results[i].split("_")[0]
+                    results["Test_result_of_mutant"] = test_result.split("_")[0]
+                    results["Test_output_of_original_program"] = '_'.join(orig_prog_results[i].split("_")[1:])
+                    results["Test_output_of_mutant"] = '_'.join(test_result.split("_")[1:])
+                    results["Mutant_status"] = "Killed"
+                    break
+                
     elif key == "":
         pass
     #... add support for different keys
