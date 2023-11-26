@@ -426,6 +426,7 @@ int main()
 
     else if(choice == 5) //sqrt(n):
     {
+        PRECISION_PAD_DIGITS = 6;
         string n;
         int P_10;
         int P_B;
@@ -493,6 +494,7 @@ int main()
 
     else if(choice == 6) //Calculating the value of PI:
     {
+        PRECISION_PAD_DIGITS = 6;
         int P_10;
         int P_B;
 
