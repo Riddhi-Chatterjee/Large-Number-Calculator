@@ -1,3 +1,7 @@
+Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68
+Main_calculator : Main.cpp : 1 : 0.001 : -0.0001 : 4 : a+b = 0.0009
+Main_calculator : Main.cpp : 3 : -984509893459848784509814950984954545.459834950899043868094850984 : 498309459837496093489045394509.48756989682586956089665 : 20 : axb = -490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887
+Main_calculator : Main.cpp : 4 : -45980948096804396093406989580923504095809348609834692689795861238749873958.458173458709849347646348758794698093457987 : 457837459870983469809183456786567987958693849580346.45683475879360983498748579874598036625748589845 : 40 : a/b = -100430725152462666067397.1228075112784087609517181575963446151866
 Main_calculator : Main.cpp : 1 : 4958744980958094850910809948509.59840955849859018405 : 548759874.487494 : 20 : a+b = 4958744980958094850911358708384.08590355849859018405
 Main_calculator : Main.cpp : 2 : 98915989891509178679834598945809.698596898569 : 83475925982095894594958094385098340953984609843587983475879834587987345109894543850983471874.14458784571994594567491458785768458746987436984 : 20 : a-b = -83475925982095894594958094385098340953984609843587983475879735671997453600715864016384526064.44599094715094594567
 Main_calculator : Main.cpp : 3 : 984509893459848784509814950984954545.459834950899043868094850984 : 498309459837496093489045394509.48756989682586956089665 : 20 : axb = 490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887
@@ -5,3 +9,119 @@ Main_calculator : Main.cpp : 4 : 45980948096804396093406989580923504095809348609
 Main_calculator : Main.cpp : 5 : 5948095804986989056875986049586546798569809458609.9895475987094695485098495098609834 : 40 : sqrt(n) = 2,438,871,830,373,008,563,704,811.5523539874459934882853557354868704345487
 Main_calculator : Main.cpp : 6 : 100 : PI = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679
 Main_calculator : Main.cpp : 4 : 45980948096804396093406989580923504095809348609834692689795861238749873958.458173458709849347646348758794698093457987 : 4578374598709++83469809183456786567987958693849580346.45683475879360983498748579874598036625748589845 : 40 : ERROR: Input number can't contain more than one + symbols
+Main_calculator : Main.cpp : 5 : 10.24 : 2a : ERROR: Input number contains illegal characters
+Main_calculator : Main.cpp : 5 : -10.24 : 2 : ERROR: Can't compute square root of a negative number!!
+Main_calculator : Main.cpp : 1 : --1.24 : 1.24 : 2 : ERROR: Input number can't contain more than one - symbols
+Main_calculator : Main.cpp : 3 : -+12.34 : 12.34 : 2 : ERROR: Input number can't contain both + and - symbols
+Main_calculator : Main.cpp : 4 : 12+34.56 : 2.0 : 2 : ERROR: + symbol must be present at the leftmost position of the input number
+Main_calculator : Main.cpp : 2 : 12.34 : 12-.34 : 2 : ERROR: - symbol must be present at the leftmost position of the input number
+Main_calculator : Main.cpp : 4 : 12..34 : 12.34 : 2 : ERROR: Input number can't contain more than one decimal point
+Main_calculator : Main.cpp : 5 : 12il76.56 : 2 : ERROR: Input number contains illegal characters
+Main_calculator : Main.cpp : 5 : 1000000000000 : 12.3 : ERROR: Input number can't be fractional
+adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323
+adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64
+adder_add : adder.cpp : 12.34 : 3483.57893 : 10 : 5 : 3495.91893
+adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101
+adder_add : adder.cpp : 21 : 42 : 10 : 0 : 63.
+adder_add : adder.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 12069117.677182
+adder_vecInverter : adder.cpp : 1,2,3 : 3,2,1
+adder_vecInverter : adder.cpp : 10,21,42,4221,4214 : 4214,4221,42,21,10
+adder_vecInverter : adder.cpp : 10,21.32,0 : 0,21.32,10
+adder_vecInverter : adder.cpp : 0,0,0 : 0,0,0
+adder_vecInverter : adder.cpp : 1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8 : 8,7,6,5,4,3,2,1,0,9,8,7,6,5,4,3,2,1
+adder_vecInverter : adder.cpp : 1.0,2.0,3.0,4.0,5.0,6 : 6,5,4,3,2,1
+adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3
+adder_truncate : adder.cpp : 0,0 : 0
+adder_truncate : adder.cpp : 0,0,1,2,3,0,0,0 : 1,2,3,0,0,0
+adder_truncate : adder.cpp : 1,2,3 : 1,2,3
+adder_truncate : adder.cpp : 0,0,1,2,0,3 : 1,2,0,3
+adder_truncate : adder.cpp : 1,2,0,0,0,3,0,0,0 : 1,2,0,0,0,3,0,0,0
+baseConverter_convertToTen : baseConverter.cpp : 10000 : 2 : 1 : 16.0
+baseConverter_convertToTen : baseConverter.cpp : 101110.101010 : 2 : 5 : 46.65625
+baseConverter_convertToTen : baseConverter.cpp : 123 : 5 : 1 : 38.0
+baseConverter_convertToTen : baseConverter.cpp : 10100100010111011.1011111001 : 2 : 10 : 84155.7431640625
+baseConverter_convertToTen : baseConverter.cpp : 11100001110111.11010001 : 2 : 8 : 14455.81640625
+baseConverter_convertToTen : baseConverter.cpp : 1010101010101.010101010 : 2 : 8 : 5461.33203125
+baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1
+baseConverter_vecInverter : baseConverter.cpp : 10,21,42,4221,4214 : 4214,4221,42,21,10
+baseConverter_vecInverter : baseConverter.cpp : 10,21.32,0 : 0,21.32,10
+baseConverter_vecInverter : baseConverter.cpp : 0,0,0 : 0,0,0
+baseConverter_vecInverter : baseConverter.cpp : 1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8 : 8,7,6,5,4,3,2,1,0,9,8,7,6,5,4,3,2,1
+baseConverter_vecInverter : baseConverter.cpp : 1.0,2.0,3.0,4.0,5.0,6 : 6,5,4,3,2,1
+baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16
+baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,1 : 0 : 4 : 2 : 17
+baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,1,0 : 0 : 4 : 2 : 18
+baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,1,0,0 : 0 : 4 : 2 : 20
+baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,1,0,0,0 : 0 : 4 : 2 : 24
+baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,1,1,1,1 : 0 : 4 : 2 : 31
+subtractor_subtract : subtractor.cpp : 3483.57893 : 12.3443 : 10 : 5 : 3471.23463
+subtractor_subtract : subtractor.cpp : 48723.43 : 795.21 : 10 : 2 : 47928.22
+subtractor_subtract : subtractor.cpp : 3483.57893 : 12.34 : 10 : 5 : 3471.23893
+subtractor_subtract : subtractor.cpp : 12.0101010 : 1.00011001 : 10 : 8 : 11.00999099
+subtractor_subtract : subtractor.cpp : 42 : 21 : 10 : 0 : 21.
+subtractor_subtract : subtractor.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 4370368.817182
+subtractor_vecInverter : subtractor.cpp : 1,2,3 : 3,2,1
+subtractor_vecInverter : subtractor.cpp : 10,21,42,4221,4214 : 4214,4221,42,21,10
+subtractor_vecInverter : subtractor.cpp : 10,21.32,0 : 0,21.32,10
+subtractor_vecInverter : subtractor.cpp : 0,0,0 : 0,0,0
+subtractor_vecInverter : subtractor.cpp : 1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8 : 8,7,6,5,4,3,2,1,0,9,8,7,6,5,4,3,2,1
+subtractor_vecInverter : subtractor.cpp : 1.0,2.0,3.0,4.0,5.0,6 : 6,5,4,3,2,1
+subtractor_truncate : subtractor.cpp : 0,0,1,2,3 : 1,2,3
+subtractor_truncate : subtractor.cpp : 0,0 : 0
+subtractor_truncate : subtractor.cpp : 0,0,1,2,3,0,0,0 : 1,2,3,0,0,0
+subtractor_truncate : subtractor.cpp : 1,2,3 : 1,2,3
+subtractor_truncate : subtractor.cpp : 0,0,1,2,0,3 : 1,2,0,3
+subtractor_truncate : subtractor.cpp : 1,2,0,0,0,3,0,0,0 : 1,2,0,0,0,3,0,0,0
+approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321
+approximator_roundOff : approximator.cpp : 5483759831471.758967146134 : 10 : 6 : 5483759831471.758967
+approximator_roundOff : approximator.cpp : 4358934950.679685908609 : 10 : 3 : 4358934950.679
+approximator_roundOff : approximator.cpp : 5830956809.984506983409849 : 10 : 10 : 5830956809.9845069834
+approximator_roundOff : approximator.cpp : 598609458 : 10 : 3 : 598609458.
+approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 80 : 212312.3213241
+approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1
+approximator_vecInverter : approximator.cpp : 10,21,42,4221,4214 : 4214,4221,42,21,10
+approximator_vecInverter : approximator.cpp : 10,21.32,0 : 0,21.32,10
+approximator_vecInverter : approximator.cpp : 0,0,0 : 0,0,0
+approximator_vecInverter : approximator.cpp : 1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8 : 8,7,6,5,4,3,2,1,0,9,8,7,6,5,4,3,2,1
+approximator_vecInverter : approximator.cpp : 1.0,2.0,3.0,4.0,5.0,6 : 6,5,4,3,2,1
+divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1
+divider_vecInverter : divider.cpp : 10,21,42,4221,4214 : 4214,4221,42,21,10
+divider_vecInverter : divider.cpp : 10,21.32,0 : 0,21.32,10
+divider_vecInverter : divider.cpp : 0,0,0 : 0,0,0
+divider_vecInverter : divider.cpp : 1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8 : 8,7,6,5,4,3,2,1,0,9,8,7,6,5,4,3,2,1
+divider_vecInverter : divider.cpp : 1.0,2.0,3.0,4.0,5.0,6 : 6,5,4,3,2,1
+divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3
+divider_truncate : divider.cpp : 0,0 : 0
+divider_truncate : divider.cpp : 0,0,0,1,2,3,0,0 : 0,0,0,1,2,3
+divider_truncate : divider.cpp : 1,2,3 : 1,2,3
+divider_truncate : divider.cpp : 1,2,0,3,0,0 : 1,2,0,3
+divider_truncate : divider.cpp : 0,0,0,1,2,0,0,0,3 : 0,0,0,1,2,0,0,0,3
+divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509
+divider_divide : divider.cpp : 48723.43 : 795.21 : 10 : 20 : 61.27114850165365123678
+divider_divide : divider.cpp : 3483.57893 : 12.34 : 10 : 20 : 282.29975121555915721231
+divider_divide : divider.cpp : 12.0101010 : 1.00011001 : 10 : 20 : 12.00877991412164747756
+divider_divide : divider.cpp : 42 : 21 : 10 : 20 : 2.00000000000000000000
+divider_divide : divider.cpp : 8219743.247182 : 3849374.43 : 10 : 20 : 2.13534520911284798034
+multiplier_vecInverter : multiplier.cpp : 1,2,3 : 3,2,1
+multiplier_vecInverter : multiplier.cpp : 10,21,42,4221,4214 : 4214,4221,42,21,10
+multiplier_vecInverter : multiplier.cpp : 10,21.32,0 : 0,21.32,10
+multiplier_vecInverter : multiplier.cpp : 0,0,0 : 0,0,0
+multiplier_vecInverter : multiplier.cpp : 1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8 : 8,7,6,5,4,3,2,1,0,9,8,7,6,5,4,3,2,1
+multiplier_vecInverter : multiplier.cpp : 1.0,2.0,3.0,4.0,5.0,6 : 6,5,4,3,2,1
+multiplier_truncate : multiplier.cpp : 0,0,1,2,3 : 1,2,3
+multiplier_truncate : multiplier.cpp : 0,0 : 0
+multiplier_truncate : multiplier.cpp : 0,0,1,2,3,0,0,0 : 1,2,3,0,0,0
+multiplier_truncate : multiplier.cpp : 1,2,3 : 1,2,3
+multiplier_truncate : multiplier.cpp : 0,0,1,2,0,3 : 1,2,0,3
+multiplier_truncate : multiplier.cpp : 1,2,0,0,0,3,0,0,0 : 1,2,0,0,0,3,0,0,0
+multiplier_multiply : multiplier.cpp : 3483.57893 : 12.3443 : 10 : 5 : 43002.34338
+multiplier_multiply : multiplier.cpp : 48723.43 : 795.21 : 10 : 2 : 38745334.91
+multiplier_multiply : multiplier.cpp : 3483.57893 : 12.34 : 10 : 5 : 42987.36399
+multiplier_multiply : multiplier.cpp : 12.0101010 : 1.00011001 : 10 : 8 : 12.01142223
+multiplier_multiply : multiplier.cpp : 42 : 21 : 10 : 0 : 882.
+multiplier_multiply : multiplier.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 31640869476867.560356
+squareRoot_sqRootOf : squareRoot.cpp : 10.24 : 10 : 1 : 3.2
+squareRoot_sqRootOf : squareRoot.cpp : 8219743.247182 : 10 : 6 : 2867.00946
+squareRoot_sqRootOf : squareRoot.cpp : 789237459847509 : 10 : 6 : 28093370.389604
+squareRoot_sqRootOf : squareRoot.cpp : 394832059.454875984 : 10 : 50 : 19870.38146223861460772853740267511720451189860433582006
+squareRoot_sqRootOf : squareRoot.cpp : 479873589.4583 : 10 : 6 : 21906.017197
