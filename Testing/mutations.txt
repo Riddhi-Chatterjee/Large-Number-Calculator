@@ -1,13 +1,3 @@
-divider_divide : ArOR : divider.cpp : 44 : 26 : 44 : 27 : /
-
-divider_divide : ArOR : divider.cpp : 44 : 26 : 44 : 27 : *
-
-divider_divide : ArOR : divider.cpp : 44 : 26 : 44 : 27 : %
-
-divider_divide : ROR : divider.cpp : 47 : 14 : 47 : 15 : >
-
-divider_divide : ROR : divider.cpp : 47 : 14 : 47 : 15 : >=
-
 divider_divide : ROR : divider.cpp : 47 : 14 : 47 : 15 : <=
 
 divider_divide : ROR : divider.cpp : 54 : 14 : 54 : 16 : >
