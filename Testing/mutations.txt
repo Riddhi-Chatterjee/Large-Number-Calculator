@@ -70,5 +70,5 @@ adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : *
 
 adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : /
 
-adder_add : UOD : adder.cpp : 29 : 23 : 29 : 24 :
+adder_add : UOD : adder.cpp : 29 : 23 : 29 : 24 : 
 
