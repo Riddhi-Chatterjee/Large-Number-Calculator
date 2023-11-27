@@ -1,44 +1,50 @@
-Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : <
-
-Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : >=
-
-Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : >
-
-Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : -
-
-Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : *
-
-Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : /
-
-Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : %
-
-multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : -=
-
-multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : *=
-
-multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : /=
-
-multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : %=
-
-multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : <=
-
-multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : >
-
-multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : <
-
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 25 : 51 : 26 : /
-
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : -
-
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : *
-
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : /
-
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : %
-
 subtractor_truncate : COR : subtractor.cpp : 144 : 18 : 144 : 20 : ||
 
 subtractor_subtract : AVI : subtractor.cpp : 30 : 24 : 30 : 26 : abs(p1)
 
 subtractor_subtract : AVI : subtractor.cpp : 38 : 24 : 38 : 26 : abs(p2)
+
+subtractor_subtract : ROR : subtractor.cpp : 32 : 15 : 32 : 16 : >=
+
+subtractor_subtract : ROR : subtractor.cpp : 32 : 15 : 32 : 16 : <=
+
+subtractor_subtract : ROR : subtractor.cpp : 32 : 15 : 32 : 16 : >
+
+subtractor_subtract : ROR : subtractor.cpp : 53 : 10 : 53 : 12 : >
+
+subtractor_subtract : ROR : subtractor.cpp : 53 : 10 : 53 : 12 : <=
+
+subtractor_subtract : ROR : subtractor.cpp : 53 : 10 : 53 : 12 : <
+
+subtractor_truncate : COR : subtractor.cpp : 144 : 18 : 144 : 20 : ||
+
+subtractor_truncate : ArOR : subtractor.cpp : 143 : 19 : 143 : 20 : +
+
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : *
+
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : +
+
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : /
+
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : %
+
+squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : >=
+
+squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : >
+
+squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : <
+
+squareRoot_sqRootOf : UOD : squareRoot.cpp : 61 : 27 : 61 : 27 : -
+
+multiplier_multiply : COR : multiplier.cpp : 134 : 18 : 134 : 20 : ||
+
+multiplier_multiply : ArOR : multiplier.cpp : 133 : 19 : 133 : 20 : +
+
+multiplier_vecInverter : ArOR : multiplier.cpp : 148 : 24 : 148 : 25 : *
+
+multiplier_vecInverter : ArOR : multiplier.cpp : 148 : 24 : 148 : 25 : +
+
+multiplier_vecInverter : ArOR : multiplier.cpp : 148 : 24 : 148 : 25 : /
+
+multiplier_vecInverter : ArOR : multiplier.cpp : 148 : 24 : 148 : 25 : %
 
