@@ -1,0 +1,32 @@
+Main_calculator : IVPR : Main.cpp : 512 : 42 : 512 : 46 : iBase
+
+Main_calculator : IVPR : Main.cpp : 530 : 35 : 530 : 38 : two
+
+Main_calculator : IVPR : Main.cpp : 93 : 29 : 93 : 30 : a
+
+Main_calculator : IVPR : Main.cpp : 117 : 50 : 117 : 54 : num1
+
+Main_calculator : IVPR : Main.cpp : 133 : 54 : 133 : 58 : num1
+
+Main_calculator : IVPR : Main.cpp : 369 : 31 : 369 : 32 : a
+
+Main_calculator : IVPR : Main.cpp : 405 : 40 : 405 : 44 : num2
+
+Main_calculator : IPEX : Main.cpp : 253 : 48 : 253 : 58 : num1, num2
+
+Main_calculator : IPEX : Main.cpp : 253 : 60 : 253 : 70 : P_B, iBase
+
+Main_calculator : IPEX : Main.cpp : 405 : 40 : 405 : 50 : num2, num1
+
+Main_calculator : IPEX : Main.cpp : 405 : 52 : 405 : 62 : P_B, iBase
+
+Main_calculator : IMCD : Main.cpp : 72 : 12 : 72 : 29 : true
+
+Main_calculator : IMCD : Main.cpp : 288 : 12 : 288 : 29 : true
+
+Main_calculator : IMCD : Main.cpp : 294 : 16 : 294 : 33 : false
+
+Main_calculator : IMCD : Main.cpp : 363 : 12 : 363 : 29 : true
+
+Main_calculator : IMCD : Main.cpp : 186 : 16 : 186 : 33 : true
+
