@@ -1,5 +1,5 @@
 Mutant,Differentiating_test_case,Test_result_of_original_program,Test_result_of_mutant,Test_output_of_original_program,Test_output_of_mutant,Mutant_status
-Main_calculator : IUOI : Main.cpp : 330 : 59 : 330 : 59 : -,Main_calculator : Main.cpp : 3 : 984509893459848784509814950984954545.459834950899043868094850984 : 498309459837496093489045394509.48756989682586956089665 : 20 : axb = 490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887,SUCCESS,FAILURE,"
+Main_calculator : IUOI : Main.cpp : 330 : 59 : 330 : 59 : -,Main_calculator : Main.cpp : 3 : -984509893459848784509814950984954545.459834950899043868094850984 : 498309459837496093489045394509.48756989682586956089665 : 20 : axb = -490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887,SUCCESS,FAILURE,"
 Choose an operation:
 [1]: Add two numbers
 [2]: Subtract two numbers
@@ -17,7 +17,7 @@ Enter the number 'b' as a decimal string:
 
 Enter the number of digits of precision required:
 
-axb = 490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887
+axb = -490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887
 
 Completed in: 0 Hours, 0 Minutes, 0 Seconds
 
@@ -40,7 +40,7 @@ Enter the number 'b' as a decimal string:
 
 Enter the number of digits of precision required:
 
-axb = 49059059321464807580483310705875848344983204140001342177280013421772804000000000026214400. 
+axb = -490590593214648075804833107058758483449832041400098450989345984878. 
 
 Completed in: 0 Hours, 0 Minutes, 0 Seconds
 
@@ -90,7 +90,7 @@ Completed in: 0 Hours, 0 Minutes, 0 Seconds
 
 Process finished with exit code 0
 ",Killed
-Main_calculator : IREM : Main.cpp : 922 : 12 : 922 : 12 : !,Main_calculator : Main.cpp : 1 : 4958744980958094850910809948509.59840955849859018405 : 548759874.487494 : 20 : a+b = 4958744980958094850911358708384.08590355849859018405,SUCCESS,FAILURE,"
+Main_calculator : IREM : Main.cpp : 922 : 12 : 922 : 12 : !,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
 Choose an operation:
 [1]: Add two numbers
 [2]: Subtract two numbers
@@ -108,7 +108,7 @@ Enter the number 'b' as a decimal string:
 
 Enter the number of digits of precision required:
 
-a+b = 4958744980958094850911358708384.08590355849859018405
+a+b = 24.68
 
 Completed in: 0 Hours, 0 Minutes, 0 Seconds
 
@@ -129,4 +129,37 @@ Enter the number 'a' as a decimal string:
 
 Process finished with exit code 0
 ",Killed
-,,,,,,Mutants killed = 3/4 = 75.0%
+adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,34848.1336,Killed
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,2.20112011,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : +,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,1201010100000001.00011001,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : +,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,1234433483.57893,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : *,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,120101010000000000000000000000000000000000000000000000001.00011001,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : *,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,123443000000000003483.57893,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : /,adder_add : adder.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 12069117.677182,SUCCESS,FAILURE,12069117.677182,8604680.690182,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : /,adder_add : adder.cpp : 12.34 : 3483.57893 : 10 : 5 : 3495.91893,SUCCESS,FAILURE,3495.91893,3484.81293,Killed
+adder_add : ArOR : adder.cpp : 25 : 27 : 25 : 30 : ,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,12010102.00011001,Killed
+adder_add : ArOR : adder.cpp : 33 : 27 : 33 : 30 : ,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,15827.87893,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 32 : ,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,120101011.00011001,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 32 : ,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,126926.57893,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : %,adder_add : adder.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 12069117.677182,SUCCESS,FAILURE,12069117.677182,8220128.184625,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : %,adder_add : adder.cpp : 12.34 : 3483.57893 : 10 : 5 : 3495.91893,SUCCESS,FAILURE,3495.91893,3483.70233,Killed
+adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : ==,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,2.20112011,Killed
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : ==,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,2.20112011,Killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3,Killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ^,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3","0,0,1,2,3",Killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : &,NA,NA,NA,NA,NA,Not killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : -,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,"4951..,*",Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : /,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,49110.00,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : +,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,49IEB.@>,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 75 : ,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,49?;8.64,Killed
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : %,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,51398.04,Killed
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : -,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,413/..04,Killed
+adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : == ,adder_add : adder.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 12069117.677182,SUCCESS,FAILURE,12069117.677182,2069117.677182,Killed
+adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : >=,NA,NA,NA,NA,NA,Not killed
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : abs(p1),NA,NA,NA,NA,NA,Not killed
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : (-abs(p1)),NA,NA,NA,NA,NA,Not killed
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : +,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,50518.64,Killed
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : *,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,48418.64,Killed
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : /,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,"Command '['./adder_test', 'add', '48723.43', '795.21', '10', '2', '49518.64']' died with <Signals.SIGFPE: 8>.",Killed
+adder_add : UOD : adder.cpp : 29 : 23 : 29 : 24 : ,NA,NA,NA,NA,NA,Not killed
+,,,,,,Mutants killed = 31/37 = 83.78%
