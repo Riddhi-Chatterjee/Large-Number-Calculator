@@ -4,13 +4,13 @@ Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : >=
 
 Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : >
 
-Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : -
+Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : -
 
-Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : *
+Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : *
 
-Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : /
+Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : /
 
-Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : %
+Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : %
 
 multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : -=
 
