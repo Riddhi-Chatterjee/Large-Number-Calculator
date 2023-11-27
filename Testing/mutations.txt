@@ -1,8 +1,8 @@
-Main_calculator : ROR : Main.cpp : 690 : 14 : 690 : 16 : <
+Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : <
 
-Main_calculator : ROR : Main.cpp : 690 : 14 : 690 : 16 : >=
+Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : >=
 
-Main_calculator : ROR : Main.cpp : 690 : 14 : 690 : 16 : >
+Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : >
 
 Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : -
 
