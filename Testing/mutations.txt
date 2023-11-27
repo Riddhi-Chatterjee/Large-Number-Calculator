@@ -50,11 +50,7 @@ adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : /
 
 adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : +
 
-adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : *
-
 adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 75 : 
-
-adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : *
 
 adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : %
 
