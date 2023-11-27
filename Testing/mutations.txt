@@ -146,7 +146,7 @@ approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : %
 
 approximator_roundOff : ArOR : approximator.cpp : 6 : 59 : 6 : 60 : -
 
-approximator_roundOff : UOD : approximator.cpp : 13 : 21 : 13 : 21 : -
+approximator_roundOff : UOI : approximator.cpp : 13 : 21 : 13 : 21 : -
 
 approximator_roundOff : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : /
 
@@ -250,7 +250,7 @@ baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 61 : 14 : 61 : 15 :
 
 baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 61 : 14 : 61 : 15 : <=
 
-baseConverter_DnC_ConverterToTen : UOD : baseConverter.cpp : 39 : 21 : 39 : 22 : -2
+baseConverter_DnC_ConverterToTen : UOI : baseConverter.cpp : 39 : 21 : 39 : 22 : -2
 
 baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 : +
 
@@ -500,25 +500,15 @@ squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 25 : 51 : 26 : /
 
 squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : -
 
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : *
-
 squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : /
 
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : *
+squareRoot_sqRootOf : ROR : squareRoot.cpp : 56 : 20 : 56 : 22 : >
 
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : +
+squareRoot_sqRootOf : ROR : squareRoot.cpp : 56 : 20 : 56 : 22 : >=
 
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : /
+squareRoot_sqRootOf : UOI : squareRoot.cpp : 56 : 23 : 56 : 23 : -
 
-squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : %
-
-squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : >=
-
-squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : >
-
-squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : <
-
-squareRoot_sqRootOf : UOD : squareRoot.cpp : 61 : 27 : 61 : 27 : -
+squareRoot_sqRootOf : UOI : squareRoot.cpp : 51 : 17 : 51 : 17 : -
 
 multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : -=
 
