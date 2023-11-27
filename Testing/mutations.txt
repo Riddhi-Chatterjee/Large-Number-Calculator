@@ -1,66 +1,58 @@
-divider_divide : ArOR : divider.cpp : 94 : 33 : 94 : 34 : *
+Main_calculator : ArOR : Main.cpp : 93 : 33 : 93 : 34 : -
 
-divider_divide : ArOR : divider.cpp : 94 : 33 : 94 : 34 : %
+Main_calculator : COR : Main.cpp : 111 : 31 : 111 : 33 : ||
 
-divider_divide : ArOR : divider.cpp : 94 : 33 : 94 : 34 : /
+Main_calculator : COR : Main.cpp : 111 : 31 : 111 : 33 : ^
 
-divider_divide : ROR : divider.cpp : 98 : 14 : 98 : 16 : >=
+Main_calculator : COR : Main.cpp : 111 : 41 : 111 : 43 : &&
 
-divider_divide : ROR : divider.cpp : 98 : 14 : 98 : 16 : >
+Main_calculator : ArOR : Main.cpp : 117 : 65 : 117 : 66 : +
 
-divider_divide : ROR : divider.cpp : 98 : 14 : 98 : 16 : ==
+Main_calculator : UOD : Main.cpp : 198 : 25 : 198 : 25 : -
 
-divider_divide : ROR : divider.cpp : 98 : 14 : 98 : 16 : <=
+Main_calculator : UOD : Main.cpp : 199 : 25 : 199 : 25 : -
 
-divider_divide : ArOR : divider.cpp : 100 : 30 : 100 : 31 : -
+Main_calculator : ROR : Main.cpp : 688 : 14 : 688 : 16 : <
 
-divider_divide : ArOR : divider.cpp : 100 : 30 : 100 : 31 : /
+Main_calculator : ROR : Main.cpp : 688 : 14 : 688 : 16 : >=
 
-divider_divide : ArOR : divider.cpp : 100 : 30 : 100 : 31 : +
+Main_calculator : ROR : Main.cpp : 688 : 14 : 688 : 16 : >
 
-divider_divide : ArOR : divider.cpp : 100 : 30 : 100 : 31 : %
+Main_calculator : ArOR : Main.cpp : 679 : 34 : 679 : 35 : -
 
-divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : >
+Main_calculator : ArOR : Main.cpp : 679 : 34 : 679 : 35 : *
 
-divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : <=
+Main_calculator : ArOR : Main.cpp : 679 : 34 : 679 : 35 : /
 
-divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : <
+Main_calculator : ArOR : Main.cpp : 679 : 34 : 679 : 35 : %
 
-divider_divide : ArOR : divider.cpp : 119 : 33 : 119 : 34 : -
+multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : -=
 
-divider_truncate : COR : divider.cpp : 164 : 18 : 164 : 20 : ||
+multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : *=
 
-divider_truncate : COR : divider.cpp : 164 : 18 : 164 : 20 : ^
+multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : /=
 
-divider_truncate : ROR : divider.cpp : 164 : 13 : 164 : 15 : >=
+multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : %=
 
-divider_truncate : ROR : divider.cpp : 164 : 13 : 164 : 15 : >
+multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : <=
 
-divider_truncate : ROR : divider.cpp : 164 : 13 : 164 : 15 : <
+multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : >
 
-divider_truncate : ROR : divider.cpp : 164 : 13 : 164 : 15 : <=
+multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : <
 
-divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : >=
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 25 : 51 : 26 : /
 
-divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : !=
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : -
 
-divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : >
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : *
 
-divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : <
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : /
 
-divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : <=
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : %
 
-divider_vecInverter : ArOR : divider.cpp : 195 : 24 : 195 : 25 : +
+subtractor_truncate : COR : subtractor.cpp : 144 : 18 : 144 : 20 : ||
 
-divider_vecInverter : ArOR : divider.cpp : 195 : 24 : 195 : 25 : /
+subtractor_subtract : AVI : subtractor.cpp : 30 : 24 : 30 : 26 : abs(p1)
 
-divider_vecInverter : ArOR : divider.cpp : 195 : 24 : 195 : 25 : %
-
-divider_vecInverter : ArOR : divider.cpp : 195 : 24 : 195 : 25 : *
-
-divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : >
-
-divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : <
-
-divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : <=
+subtractor_subtract : AVI : subtractor.cpp : 38 : 24 : 38 : 26 : abs(p2)
 
