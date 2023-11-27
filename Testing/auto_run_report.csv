@@ -295,6 +295,54 @@ Completed in: 0 Hours, 0 Minutes, 0 Seconds
 
 Process finished with exit code 0
 ",Killed
+Main_calculator : IUOI : Main.cpp : 330 : 59 : 330 : 59 : -,Main_calculator : Main.cpp : 3 : -984509893459848784509814950984954545.459834950899043868094850984 : 498309459837496093489045394509.48756989682586956089665 : 20 : axb = -490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing axb...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+axb = -490590593214648075804833107058758483449832041409469637014177798351.32893177261585500887
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing axb...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+axb = -490590593214648075804833107058758483449832041400098450989345984878. 
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+"Main_calculator : IPEX : Main.cpp : 330 : 40 : 330 : 50 : num2, num1",NA,NA,NA,NA,NA,Not killed
 "Main_calculator : IPEX : Main.cpp : 253 : 48 : 253 : 58 : num1, num2",Main_calculator : Main.cpp : 2 : 98915989891509178679834598945809.698596898569 : 83475925982095894594958094385098340953984609843587983475879834587987345109894543850983471874.14458784571994594567491458785768458746987436984 : 20 : a-b = -83475925982095894594958094385098340953984609843587983475879735671997453600715864016384526064.44599094715094594567,SUCCESS,FAILURE,"
 Choose an operation:
 [1]: Add two numbers
@@ -478,6 +526,49 @@ Enter the number 'b' as a decimal string:
 Enter the number of digits of precision required:
 
 a/b = -1001914736733315231926201133032222221230.3493734321193973
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : IMCD : Main.cpp : 369 : 16 : 369 : 33 : true,Main_calculator : Main.cpp : 4 : 45980948096804396093406989580923504095809348609834692689795861238749873958.458173458709849347646348758794698093457987 : 4578374598709++83469809183456786567987958693849580346.45683475879360983498748579874598036625748589845 : 40 : ERROR: Input number can't contain more than one + symbols,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a/b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+ERROR: Input number can't contain more than one + symbols
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a/b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a/b = 1004307251524928575550.4269626761648556372793886058250793848892
 
 Completed in: 0 Hours, 0 Minutes, 0 Seconds
 
@@ -690,4 +781,767 @@ Completed in: 0 Hours, 0 Minutes, 0 Seconds
 
 Process finished with exit code 0
 ",Killed
-,,,,,,Mutants killed = 15/16 = 93.75%
+Main_calculator : IREM : Main.cpp : 922 : 12 : 922 : 12 : !,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Process finished with exit code 0
+",Killed
+Main_calculator : ArOR : Main.cpp : 95 : 33 : 95 : 34 : -,NA,NA,NA,NA,NA,Not killed
+Main_calculator : COR : Main.cpp : 113 : 31 : 113 : 33 : ||,Main_calculator : Main.cpp : 1 : 0.001 : -0.0001 : 4 : a+b = 0.0009,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 0.0009
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 0.0011
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : COR : Main.cpp : 113 : 31 : 113 : 33 : ^,Main_calculator : Main.cpp : 1 : 0.001 : -0.0001 : 4 : a+b = 0.0009,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 0.0009
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 0.0011
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : COR : Main.cpp : 113 : 41 : 113 : 43 : &&,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 0.00
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : ArOR : Main.cpp : 119 : 65 : 119 : 66 : +,NA,NA,NA,NA,NA,Not killed
+Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : <,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 2.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : >=,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = .68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : ROR : Main.cpp : 692 : 14 : 692 : 16 : >,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = .68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : -,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 246800. 
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : *,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 0.000000002468
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : /,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 0.2468
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+Main_calculator : ArOR : Main.cpp : 683 : 34 : 683 : 35 : %,Main_calculator : Main.cpp : 1 : 12.34 : 12.34 : 2 : a+b = 24.68,SUCCESS,FAILURE,"
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 24.68
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+","
+Choose an operation:
+[1]: Add two numbers
+[2]: Subtract two numbers
+[3]: Multiply two numbers
+[4]: Divide two numbers
+[5]: Compute square root of a number
+[6]: Compute the value of PI
+
+
+Computing a+b...
+
+Enter the number 'a' as a decimal string:
+
+Enter the number 'b' as a decimal string:
+
+Enter the number of digits of precision required:
+
+a+b = 2468. 
+
+Completed in: 0 Hours, 0 Minutes, 0 Seconds
+
+Process finished with exit code 0
+",Killed
+adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : <,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,34848.1336,Killed
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : >,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,2.20112011,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : +,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,1201010100000001.00011001,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : +,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,1234433483.57893,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : *,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,120101010000000000000000000000000000000000000000000000001.00011001,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : *,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,123443000000000003483.57893,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : /,adder_add : adder.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 12069117.677182,SUCCESS,FAILURE,12069117.677182,8604680.690182,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : /,adder_add : adder.cpp : 12.34 : 3483.57893 : 10 : 5 : 3495.91893,SUCCESS,FAILURE,3495.91893,3484.81293,Killed
+adder_add : ArOR : adder.cpp : 25 : 27 : 25 : 30 : ,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,12010102.00011001,Killed
+adder_add : ArOR : adder.cpp : 33 : 27 : 33 : 30 : ,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,15827.87893,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 32 : ,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,120101011.00011001,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 32 : ,adder_add : adder.cpp : 12.3443 : 3483.57893 : 10 : 5 : 3495.92323,SUCCESS,FAILURE,3495.92323,126926.57893,Killed
+adder_add : ArOR : adder.cpp : 25 : 29 : 25 : 30 : %,adder_add : adder.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 12069117.677182,SUCCESS,FAILURE,12069117.677182,8220128.184625,Killed
+adder_add : ArOR : adder.cpp : 33 : 29 : 33 : 30 : %,adder_add : adder.cpp : 12.34 : 3483.57893 : 10 : 5 : 3495.91893,SUCCESS,FAILURE,3495.91893,3483.70233,Killed
+adder_add : ROR : adder.cpp : 23 : 10 : 23 : 11 : ==,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,2.20112011,Killed
+adder_add : ROR : adder.cpp : 25 : 25 : 25 : 26 : ==,adder_add : adder.cpp : 1.00011001 : 12.0101010 : 10 : 8 : 13.01021101,SUCCESS,FAILURE,13.01021101,2.20112011,Killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ||,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3,Killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : ^,"adder_truncate : adder.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3","0,0,1,2,3",Killed
+adder_truncate : COR : adder.cpp : 112 : 18 : 112 : 20 : &,NA,NA,NA,NA,NA,Not killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : -,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,"4951..,*",Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : /,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,49110.00,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 71 : +,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,49IEB.@>,Killed
+adder_add : ArOR : adder.cpp : 57 : 70 : 57 : 75 : ,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,49?;8.64,Killed
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : %,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,51398.04,Killed
+adder_add : ArOR : adder.cpp : 58 : 60 : 58 : 61 : -,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,413/..04,Killed
+adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : == ,adder_add : adder.cpp : 8219743.247182 : 3849374.43 : 10 : 6 : 12069117.677182,SUCCESS,FAILURE,12069117.677182,2069117.677182,Killed
+adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : >=,NA,NA,NA,NA,NA,Not killed
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : abs(p1),NA,NA,NA,NA,NA,Not killed
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : (-abs(p1)),NA,NA,NA,NA,NA,Not killed
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : +,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,50518.64,Killed
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : *,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,48418.64,Killed
+adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : /,adder_add : adder.cpp : 48723.43 : 795.21 : 10 : 2 : 49518.64,SUCCESS,FAILURE,49518.64,"Command '['./adder_test', 'add', '48723.43', '795.21', '10', '2', '49518.64']' died with <Signals.SIGFPE: 8>.",Killed
+adder_add : UOD : adder.cpp : 29 : 23 : 29 : 24 : ,NA,NA,NA,NA,NA,Not killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6 : 35 : -,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312.3213241,Killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6 : 35 : *,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000212312.3213241,Killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6 : 35 : /,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212,Killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6 : 35 : %,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312.3213241,Killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : -,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212,Killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : *,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,000000000212312.3213241,Killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : /,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,21231232.132,Killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : %,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312321.324,Killed
+approximator_roundOff : ArOR : approximator.cpp : 6 : 59 : 6 : 60 : -,NA,NA,NA,NA,NA,Not killed
+approximator_roundOff : UOD : approximator.cpp : 13 : 21 : 13 : 21 : -,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,000000.002,Killed
+approximator_roundOff : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : /,NA,NA,NA,NA,NA,Not killed
+approximator_roundOff : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : +,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,000000.021,Killed
+approximator_roundOff : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : %,NA,NA,NA,NA,NA,Not killed
+approximator_roundOff : ArOR : approximator.cpp : 13 : 20 : 13 : 21 : -,NA,NA,NA,NA,NA,Not killed
+approximator_roundOff : ROR : approximator.cpp : 21 : 14 : 21 : 16 : <=,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312.3213241,Killed
+approximator_roundOff : ROR : approximator.cpp : 21 : 14 : 21 : 16 : !=,NA,NA,NA,NA,NA,Not killed
+approximator_roundOff : ROR : approximator.cpp : 21 : 14 : 21 : 16 : >,NA,NA,NA,NA,NA,Not killed
+approximator_roundOff : ROR : approximator.cpp : 21 : 14 : 21 : 16 : <,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312.3213241,Killed
+approximator_roundOff : ROR : approximator.cpp : 21 : 28 : 21 : 30 : <,NA,NA,NA,NA,NA,Not killed
+approximator_roundOff : ROR : approximator.cpp : 21 : 28 : 21 : 30 : >,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312.3213241,Killed
+approximator_roundOff : ROR : approximator.cpp : 21 : 28 : 21 : 30 : >=,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312.3213241,Killed
+approximator_roundOff : ROR : approximator.cpp : 21 : 28 : 21 : 30 : !=,approximator_roundOff : approximator.cpp : 598609458 : 10 : 3 : 598609458.,SUCCESS,FAILURE,598609458.,598609458.000,Killed
+approximator_roundOff : ArOR : approximator.cpp : 24 : 51 : 24 : 52 : -,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,"Command '['./approximator_test', 'roundOff', '212312.3213241', '10', '3', '212312.321']' died with <Signals.SIGSEGV: 11>.",Killed
+approximator_roundOff : ArOR : approximator.cpp : 24 : 59 : 24 : 60 : -,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,2123.123,Killed
+approximator_roundOff : ArOR : approximator.cpp : 24 : 59 : 24 : 60 : /,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,21231.232,Killed
+approximator_roundOff : ArOR : approximator.cpp : 24 : 59 : 24 : 60 : *,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,21231.232,Killed
+approximator_roundOff : ArOR : approximator.cpp : 24 : 59 : 24 : 60 : %,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,,Killed
+approximator_roundOff : AVI : approximator.cpp : 26 : 23 : 26 : 32 : (-abs(precision)),approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312321,Killed
+approximator_roundOff : COR : approximator.cpp : 21 : 19 : 21 : 21 : ||,approximator_roundOff : approximator.cpp : 598609458 : 10 : 3 : 598609458.,SUCCESS,FAILURE,598609458.,598609458.000,Killed
+approximator_roundOff : COR : approximator.cpp : 21 : 19 : 21 : 21 : ^,approximator_roundOff : approximator.cpp : 212312.3213241 : 10 : 3 : 212312.321,SUCCESS,FAILURE,212312.321,212312.3213241,Killed
+approximator_vecInverter : ArOR : approximator.cpp : 35 : 20 : 35 : 21 : +,NA,NA,NA,NA,NA,Not killed
+approximator_vecInverter : ROR : approximator.cpp : 35 : 25 : 35 : 27 : <=,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+approximator_vecInverter : ROR : approximator.cpp : 35 : 25 : 35 : 27 : =,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+approximator_vecInverter : ROR : approximator.cpp : 35 : 25 : 35 : 27 : <,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+approximator_vecInverter : ROR : approximator.cpp : 35 : 25 : 35 : 27 : >,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","3,2,3",Killed
+approximator_vecInverter : ArOR : approximator.cpp : 37 : 20 : 37 : 21 : +,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+approximator_vecInverter : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : +,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+approximator_vecInverter : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : /,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./approximator_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+approximator_vecInverter : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : *,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,3,2",Killed
+approximator_vecInverter : ArOR : approximator.cpp : 37 : 24 : 37 : 25 : %,"approximator_vecInverter : approximator.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./approximator_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_convertToTen : ArOR : baseConverter.cpp : 18 : 22 : 18 : 23 : +,baseConverter_convertToTen : baseConverter.cpp : 101110.101010 : 2 : 5 : 46.65625,SUCCESS,FAILURE,46.65625,2986.00000,Killed
+baseConverter_convertToTen : ArOR : baseConverter.cpp : 19 : 71 : 19 : 72 : +,baseConverter_convertToTen : baseConverter.cpp : 10000 : 2 : 1 : 16.0,SUCCESS,FAILURE,16.0,64.0,Killed
+baseConverter_convertToTen : ROR : baseConverter.cpp : 27 : 14 : 27 : 15 : <=,baseConverter_convertToTen : baseConverter.cpp : 10000 : 2 : 1 : 16.0,SUCCESS,FAILURE,16.0,8.0,Killed
+baseConverter_convertToTen : ROR : baseConverter.cpp : 27 : 14 : 27 : 15 : >,baseConverter_convertToTen : baseConverter.cpp : 101110.101010 : 2 : 5 : 46.65625,SUCCESS,FAILURE,46.65625,2986.00000,Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 17 : 39 : 18 : -,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 17 : 39 : 18 : /,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 17 : 39 : 18 : %,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 17 : 39 : 18 : *,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 20 : 39 : 21 : -,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 20 : 39 : 21 : +,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 20 : 39 : 21 : *,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 39 : 20 : 39 : 21 : %,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 42 : 10 : 42 : 12 : >=,NA,NA,NA,NA,NA,Not killed
+baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 42 : 10 : 42 : 12 : <=,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,1,Killed
+baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 42 : 10 : 42 : 12 : >,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 42 : 10 : 42 : 12 : <,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,1,Killed
+baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 42 : 10 : 42 : 12 : !=,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,1,Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 48 : 41 : 48 : 42 : -,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 61 : 14 : 61 : 15 : >=,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,1,Killed
+baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 61 : 14 : 61 : 15 : >,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,1,Killed
+baseConverter_DnC_ConverterToTen : ROR : baseConverter.cpp : 61 : 14 : 61 : 15 : <=,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,128,Killed
+baseConverter_DnC_ConverterToTen : UOD : baseConverter.cpp : 39 : 21 : 39 : 22 : -2,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGSEGV: 11>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 : +,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,1024,Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 : /,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 : %,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,"Command '['./baseConverter_test', 'DnC_ConverterToTen', '1,0,0,0,0', '0', '4', '2', '16']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_DnC_ConverterToTen : ArOR : baseConverter.cpp : 61 : 18 : 61 : 19 : *,"baseConverter_DnC_ConverterToTen : baseConverter.cpp : 1,0,0,0,0 : 0 : 4 : 2 : 16",SUCCESS,FAILURE,16,1024,Killed
+baseConverter_vecInverter : ArOR : baseConverter.cpp : 97 : 20 : 97 : 21 : +,"baseConverter_vecInverter : baseConverter.cpp : 10,21,42,4221,4214 : 4214,4221,42,21,10",SUCCESS,FAILURE,"4214,4221,42,21,10","Command '['./baseConverter_test', 'vecInverter', '10,21,42,4221,4214', '4214,4221,42,21,10']' died with <Signals.SIGABRT: 6>.",Killed
+baseConverter_vecInverter : ROR : baseConverter.cpp : 97 : 25 : 97 : 27 : >,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","3,2,3",Killed
+baseConverter_vecInverter : ROR : baseConverter.cpp : 97 : 25 : 97 : 27 : <,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+baseConverter_vecInverter : ROR : baseConverter.cpp : 97 : 25 : 97 : 27 : <=,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 20 : 99 : 21 : +,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : +,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,1",Killed
+baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : /,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./baseConverter_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : %,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./baseConverter_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+baseConverter_vecInverter : ArOR : baseConverter.cpp : 99 : 24 : 99 : 25 : *,"baseConverter_vecInverter : baseConverter.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,3,2",Killed
+divider_divide : ArOR : divider.cpp : 23 : 38 : 23 : 39 : +,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,282201415228080,Killed
+divider_divide : ArOR : divider.cpp : 23 : 38 : 23 : 39 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,28220.14152280809766450912,Killed
+divider_divide : ArOR : divider.cpp : 23 : 38 : 23 : 39 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,282201415228080976645091.25669337264972497427,Killed
+divider_divide : ArOR : divider.cpp : 23 : 38 : 23 : 39 : %,divider_divide : divider.cpp : 3483.57893 : 12.34 : 10 : 20 : 282.29975121555915721231,SUCCESS,FAILURE,282.29975121555915721231,28229.97512155591572123176,Killed
+divider_divide : ArOR : divider.cpp : 23 : 52 : 23 : 53 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 23 : 52 : 23 : 53 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 23 : 52 : 23 : 53 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,28220141522808097664509125669337264972497427962703433973574.84831055628913749665,Killed
+divider_divide : ArOR : divider.cpp : 23 : 52 : 23 : 53 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,282,Killed
+divider_divide : ROR : divider.cpp : 25 : 14 : 25 : 15 : >,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,282,Killed
+divider_divide : ROR : divider.cpp : 25 : 14 : 25 : 15 : >=,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,282,Killed
+divider_divide : ROR : divider.cpp : 25 : 14 : 25 : 15 : <=,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,2822.01415228080976645091,Killed
+divider_divide : ROR : divider.cpp : 29 : 22 : 29 : 23 : >,NA,NA,NA,NA,NA,Not killed
+divider_divide : ROR : divider.cpp : 29 : 22 : 29 : 23 : >=,NA,NA,NA,NA,NA,Not killed
+divider_divide : ROR : divider.cpp : 29 : 22 : 29 : 23 : <=,NA,NA,NA,NA,NA,Not killed
+divider_divide : ArOR : divider.cpp : 31 : 24 : 31 : 25 : -,NA,NA,NA,NA,NA,Not killed
+divider_divide : ArOR : divider.cpp : 31 : 24 : 31 : 25 : /,NA,NA,NA,NA,NA,Not killed
+divider_divide : ArOR : divider.cpp : 31 : 24 : 31 : 25 : %,NA,NA,NA,NA,NA,Not killed
+divider_divide : ArOR : divider.cpp : 31 : 24 : 31 : 25 : +,NA,NA,NA,NA,NA,Not killed
+divider_divide : ArOR : divider.cpp : 44 : 26 : 44 : 27 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 44 : 26 : 44 : 27 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 44 : 26 : 44 : 27 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ROR : divider.cpp : 47 : 14 : 47 : 15 : <=,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,3F6.?C;4D6D3HHB?HFH3C<G5,Killed
+divider_divide : ROR : divider.cpp : 54 : 14 : 54 : 16 : >,NA,NA,NA,NA,NA,Not killed
+divider_divide : ROR : divider.cpp : 54 : 14 : 54 : 16 : <=,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ROR : divider.cpp : 54 : 14 : 54 : 16 : <,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 65 : 19 : 65 : 20 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 65 : 19 : 65 : 20 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 65 : 19 : 65 : 20 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 65 : 22 : 65 : 23 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,112.00133003020001100102,Killed
+divider_divide : ArOR : divider.cpp : 65 : 22 : 65 : 23 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,-<56.97519745955623243116,Killed
+divider_divide : ArOR : divider.cpp : 65 : 22 : 65 : 23 : *,NA,NA,NA,NA,NA,Not killed
+divider_divide : ArOR : divider.cpp : 65 : 22 : 65 : 23 : +,NA,NA,NA,NA,NA,Not killed
+divider_divide : ROR : divider.cpp : 69 : 18 : 69 : 20 : <,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,100.01.00/01/0/000.000/0,Killed
+divider_divide : ArOR : divider.cpp : 71 : 30 : 71 : 31 : +,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,3E2.306<178;4D4FC1FD4E4@,Killed
+divider_divide : ArOR : divider.cpp : 71 : 30 : 71 : 31 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGFPE: 8>.",Killed
+divider_divide : ArOR : divider.cpp : 71 : 30 : 71 : 31 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGFPE: 8>.",Killed
+divider_divide : ArOR : divider.cpp : 71 : 30 : 71 : 31 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 71 : 36 : 71 : 37 : +,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 71 : 36 : 71 : 37 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,39A.A=5GABGBDE3>803=4D@2,Killed
+divider_divide : ArOR : divider.cpp : 71 : 36 : 71 : 37 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 71 : 36 : 71 : 37 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 71 : 42 : 71 : 43 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,38E.05BE4:H8AEG4CB@;16<<,Killed
+divider_divide : ArOR : divider.cpp : 71 : 42 : 71 : 43 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGFPE: 8>.",Killed
+divider_divide : ArOR : divider.cpp : 71 : 42 : 71 : 43 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGFPE: 8>.",Killed
+divider_divide : ArOR : divider.cpp : 71 : 42 : 71 : 43 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,39G.8:73>B50000000000000,Killed
+divider_divide : ROR : divider.cpp : 72 : 20 : 72 : 21 : >,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"3.2.2015&?23.1.10.,7*6%C",Killed
+divider_divide : ROR : divider.cpp : 72 : 20 : 72 : 21 : >=,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"3.2.2015&?23.1.10.,7*6%C",Killed
+divider_divide : ROR : divider.cpp : 72 : 20 : 72 : 21 : <=,NA,NA,NA,NA,NA,Not killed
+divider_divide : ArOR : divider.cpp : 74 : 31 : 74 : 32 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,113.10000000000000000000,Killed
+divider_divide : ArOR : divider.cpp : 74 : 31 : 74 : 32 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 74 : 31 : 74 : 32 : +,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,28/.9266544.254448522570,Killed
+divider_divide : ArOR : divider.cpp : 74 : 31 : 74 : 32 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,78.78787878787878787878,Killed
+divider_divide : ArOR : divider.cpp : 74 : 35 : 74 : 36 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,78.78787878787878787878,Killed
+divider_divide : ArOR : divider.cpp : 74 : 35 : 74 : 36 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 74 : 35 : 74 : 36 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,78.78787878787878787878,Killed
+divider_divide : ArOR : divider.cpp : 74 : 35 : 74 : 36 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 74 : 39 : 74 : 40 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,78.78787878787878787878,Killed
+divider_divide : ArOR : divider.cpp : 74 : 39 : 74 : 40 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,2>F.E5@9EF08:C<BA:=8206A,Killed
+divider_divide : ArOR : divider.cpp : 74 : 39 : 74 : 40 : +,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 74 : 39 : 74 : 40 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 79 : 29 : 79 : 30 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 79 : 29 : 79 : 30 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,s2.453981d39653o67566,Killed
+divider_divide : ArOR : divider.cpp : 79 : 29 : 79 : 30 : +,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,I32.450K885542G4D5550M90,Killed
+divider_divide : ArOR : divider.cpp : 79 : 29 : 79 : 30 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,L22.0;471Y52499534197969,Killed
+divider_divide : ArOR : divider.cpp : 80 : 28 : 80 : 29 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,282.40616559869737449673,Killed
+divider_divide : ArOR : divider.cpp : 80 : 28 : 80 : 29 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,88.8.689576!36 .18989,Killed
+divider_divide : ArOR : divider.cpp : 80 : 28 : 80 : 29 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,666.447585525308875351=0,Killed
+divider_divide : ArOR : divider.cpp : 80 : 28 : 80 : 29 : +,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,666.447585525308875351=0,Killed
+divider_divide : ArOR : divider.cpp : 83 : 29 : 83 : 30 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGFPE: 8>.",Killed
+divider_divide : ArOR : divider.cpp : 83 : 29 : 83 : 30 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,3F6.?C;4D6D3HHB?HFH3C<G5,Killed
+divider_divide : ArOR : divider.cpp : 83 : 29 : 83 : 30 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,3F6.?C;4D6D3HHB?HFH3C<G5,Killed
+divider_divide : ArOR : divider.cpp : 83 : 29 : 83 : 30 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGFPE: 8>.",Killed
+divider_divide : ROR : divider.cpp : 85 : 24 : 85 : 25 : <=,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,.032./50062152/42372/63/5,Killed
+divider_divide : ROR : divider.cpp : 85 : 24 : 85 : 25 : >,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,3F6.?C;4D6D3HHB?HFH3C<G5,Killed
+divider_divide : ROR : divider.cpp : 88 : 22 : 88 : 24 : <,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,2D3.C3012402?<EC87:D1032,Killed
+divider_divide : ArOR : divider.cpp : 90 : 34 : 90 : 35 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGABRT: 6>.",Killed
+divider_divide : ArOR : divider.cpp : 94 : 33 : 94 : 34 : *,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,1E=.D>C@<CBF;>;<<<;C>CA;,Killed
+divider_divide : ArOR : divider.cpp : 94 : 33 : 94 : 34 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGFPE: 8>.",Killed
+divider_divide : ArOR : divider.cpp : 94 : 33 : 94 : 34 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,"Command '['./divider_test', 'divide', '3483.57893', '12.3443', '10', '20', '282.20141522808097664509']' died with <Signals.SIGFPE: 8>.",Killed
+divider_divide : ROR : divider.cpp : 98 : 14 : 98 : 16 : >=,NA,NA,NA,NA,NA,Not killed
+divider_divide : ROR : divider.cpp : 98 : 14 : 98 : 16 : >,NA,NA,NA,NA,NA,Not killed
+divider_divide : ROR : divider.cpp : 98 : 14 : 98 : 16 : ==,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,21.11101111021022010120,Killed
+divider_divide : ROR : divider.cpp : 98 : 14 : 98 : 16 : <=,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,21.11101111021022010120,Killed
+divider_divide : ArOR : divider.cpp : 100 : 30 : 100 : 31 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,.0..0/.././.0.//.//0/0.0,Killed
+divider_divide : ArOR : divider.cpp : 100 : 30 : 100 : 31 : /,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,10.01101111010101010101,Killed
+divider_divide : ArOR : divider.cpp : 100 : 30 : 100 : 31 : +,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,322.32343333342332333423,Killed
+divider_divide : ArOR : divider.cpp : 100 : 30 : 100 : 31 : %,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,21.11111120110111112011,Killed
+divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : >,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,28.22014152280809766450,Killed
+divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : <=,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ROR : divider.cpp : 115 : 23 : 115 : 25 : <,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,00,Killed
+divider_divide : ArOR : divider.cpp : 119 : 33 : 119 : 34 : -,divider_divide : divider.cpp : 3483.57893 : 12.3443 : 10 : 20 : 282.20141522808097664509,SUCCESS,FAILURE,282.20141522808097664509,28220.1415228080976645091,Killed
+divider_truncate : COR : divider.cpp : 164 : 18 : 164 : 20 : ||,"divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3",SUCCESS,FAILURE,"1,2,3",1,Killed
+divider_truncate : COR : divider.cpp : 164 : 18 : 164 : 20 : ^,"divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3",SUCCESS,FAILURE,"1,2,3","1,2,3,0,0",Killed
+divider_truncate : ROR : divider.cpp : 164 : 13 : 164 : 15 : >=,"divider_truncate : divider.cpp : 0,0 : 0",SUCCESS,FAILURE,0,,Killed
+divider_truncate : ROR : divider.cpp : 164 : 13 : 164 : 15 : >,NA,NA,NA,NA,NA,Not killed
+divider_truncate : ROR : divider.cpp : 164 : 13 : 164 : 15 : <,"divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3",SUCCESS,FAILURE,"1,2,3","1,2,3,0,0",Killed
+divider_truncate : ROR : divider.cpp : 164 : 13 : 164 : 15 : <=,"divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3",SUCCESS,FAILURE,"1,2,3","1,2,3,0,0",Killed
+divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : >=,"divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3",SUCCESS,FAILURE,"1,2,3",1,Killed
+divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : !=,"divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3",SUCCESS,FAILURE,"1,2,3","1,2,3,0,0",Killed
+divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : >,"divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3",SUCCESS,FAILURE,"1,2,3","1,2,3,0,0",Killed
+divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : <,"divider_truncate : divider.cpp : 1,2,3,0,0 : 1,2,3",SUCCESS,FAILURE,"1,2,3","1,2,3,0,0",Killed
+divider_truncate : ROR : divider.cpp : 164 : 26 : 164 : 28 : <=,NA,NA,NA,NA,NA,Not killed
+divider_vecInverter : ArOR : divider.cpp : 195 : 24 : 195 : 25 : +,"divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,1",Killed
+divider_vecInverter : ArOR : divider.cpp : 195 : 24 : 195 : 25 : /,"divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./divider_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+divider_vecInverter : ArOR : divider.cpp : 195 : 24 : 195 : 25 : %,"divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./divider_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+divider_vecInverter : ArOR : divider.cpp : 195 : 24 : 195 : 25 : *,"divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,3,2",Killed
+divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : >,"divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","3,2,3",Killed
+divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : <,"divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+divider_vecInverter : ROR : divider.cpp : 193 : 25 : 193 : 27 : <=,"divider_vecInverter : divider.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 25 : 51 : 26 : /,squareRoot_sqRootOf : squareRoot.cpp : 10.24 : 10 : 1 : 3.2,SUCCESS,FAILURE,3.2,10.2,Killed
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : -,squareRoot_sqRootOf : squareRoot.cpp : 10.24 : 10 : 1 : 3.2,SUCCESS,FAILURE,3.2,10.2,Killed
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : *,NA,NA,NA,NA,NA,Not killed
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 51 : 43 : 51 : 44 : /,squareRoot_sqRootOf : squareRoot.cpp : 8219743.247182 : 10 : 6 : 2867.00946,FAILURE,FAILURE,2867.009460,64259.402513,Killed
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : *,NA,NA,NA,NA,NA,Not killed
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : +,NA,NA,NA,NA,NA,Not killed
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : /,NA,NA,NA,NA,NA,Not killed
+squareRoot_sqRootOf : ArOR : squareRoot.cpp : 60 : 34 : 60 : 35 : %,NA,NA,NA,NA,NA,Not killed
+squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : >=,NA,NA,NA,NA,NA,Not killed
+squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : >,NA,NA,NA,NA,NA,Not killed
+squareRoot_sqRootOf : ROR : squareRoot.cpp : 65 : 27 : 65 : 29 : <,NA,NA,NA,NA,NA,Not killed
+squareRoot_sqRootOf : UOD : squareRoot.cpp : 61 : 27 : 61 : 27 : -,NA,NA,NA,NA,NA,Not killed
+multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : -=,multiplier_multiply : multiplier.cpp : 3483.57893 : 12.3443 : 10 : 5 : 43002.34338,SUCCESS,FAILURE,43002.34338,43002343385599,Killed
+multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : *=,multiplier_multiply : multiplier.cpp : 3483.57893 : 12.3443 : 10 : 5 : 43002.34338,SUCCESS,FAILURE,43002.34338,43002343385599.,Killed
+multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : /=,multiplier_multiply : multiplier.cpp : 3483.57893 : 12.3443 : 10 : 5 : 43002.34338,SUCCESS,FAILURE,43002.34338,43002343385599.,Killed
+multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : %=,multiplier_multiply : multiplier.cpp : 3483.57893 : 12.3443 : 10 : 5 : 43002.34338,SUCCESS,FAILURE,43002.34338,43002343385599.,Killed
+multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : <=,"multiplier_vecInverter : multiplier.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : >,"multiplier_vecInverter : multiplier.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","3,2,3",Killed
+multiplier_vecInverter : ROR : multiplier.cpp : 146 : 25 : 146 : 27 : <,"multiplier_vecInverter : multiplier.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+multiplier_multiply : ArOR : multiplier.cpp : 133 : 19 : 133 : 20 : +,multiplier_multiply : multiplier.cpp : 3483.57893 : 12.3443 : 10 : 5 : 43002.34338,SUCCESS,FAILURE,43002.34338,"Command '['./multiplier_test', 'multiply', '3483.57893', '12.3443', '10', '5', '43002.34338']' died with <Signals.SIGABRT: 6>.",Killed
+multiplier_vecInverter : ArOR : multiplier.cpp : 148 : 24 : 148 : 25 : *,"multiplier_vecInverter : multiplier.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,3,2",Killed
+multiplier_vecInverter : ArOR : multiplier.cpp : 148 : 24 : 148 : 25 : +,"multiplier_vecInverter : multiplier.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","1,2,3",Killed
+multiplier_vecInverter : ArOR : multiplier.cpp : 148 : 24 : 148 : 25 : /,"multiplier_vecInverter : multiplier.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./multiplier_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+multiplier_vecInverter : ArOR : multiplier.cpp : 148 : 24 : 148 : 25 : %,"multiplier_vecInverter : multiplier.cpp : 1,2,3 : 3,2,1",SUCCESS,FAILURE,"3,2,1","Command '['./multiplier_test', 'vecInverter', '1,2,3', '3,2,1']' died with <Signals.SIGFPE: 8>.",Killed
+subtractor_truncate : COR : subtractor.cpp : 144 : 18 : 144 : 20 : ||,"subtractor_truncate : subtractor.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3,Killed
+subtractor_subtract : AVI : subtractor.cpp : 30 : 24 : 30 : 26 : abs(p1),NA,NA,NA,NA,NA,Not killed
+subtractor_subtract : AVI : subtractor.cpp : 38 : 24 : 38 : 26 : abs(p2),NA,NA,NA,NA,NA,Not killed
+subtractor_subtract : ROR : subtractor.cpp : 32 : 15 : 32 : 16 : >=,subtractor_subtract : subtractor.cpp : 12.0101010 : 1.00011001 : 10 : 8 : 11.00999099,SUCCESS,FAILURE,11.00999099,2.0090009,Killed
+subtractor_subtract : ROR : subtractor.cpp : 32 : 15 : 32 : 16 : <=,NA,NA,NA,NA,NA,Not killed
+subtractor_subtract : ROR : subtractor.cpp : 32 : 15 : 32 : 16 : >,subtractor_subtract : subtractor.cpp : 12.0101010 : 1.00011001 : 10 : 8 : 11.00999099,SUCCESS,FAILURE,11.00999099,2.0090009,Killed
+subtractor_subtract : ROR : subtractor.cpp : 53 : 10 : 53 : 12 : >,NA,NA,NA,NA,NA,Not killed
+subtractor_subtract : ROR : subtractor.cpp : 53 : 10 : 53 : 12 : <=,NA,NA,NA,NA,NA,Not killed
+subtractor_subtract : ROR : subtractor.cpp : 53 : 10 : 53 : 12 : <,subtractor_subtract : subtractor.cpp : 3483.57893 : 12.34 : 10 : 5 : 3471.23893,SUCCESS,FAILURE,3471.23893,9471.23893,Killed
+subtractor_truncate : COR : subtractor.cpp : 144 : 18 : 144 : 20 : ||,"subtractor_truncate : subtractor.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3,Killed
+subtractor_truncate : ArOR : subtractor.cpp : 143 : 19 : 143 : 20 : +,"subtractor_truncate : subtractor.cpp : 0,0,1,2,3 : 1,2,3",SUCCESS,FAILURE,"1,2,3",3,Killed
+,,,,,,Mutants killed = 237/284 = 83.45%
