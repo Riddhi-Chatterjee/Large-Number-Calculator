@@ -1,5 +1,3 @@
-Main_calculator : UOD : Main.cpp : 201 : 25 : 201 : 25 : -
-
 Main_calculator : ROR : Main.cpp : 690 : 14 : 690 : 16 : <
 
 Main_calculator : ROR : Main.cpp : 690 : 14 : 690 : 16 : >=
