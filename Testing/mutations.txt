@@ -1,28 +1,30 @@
-Main_calculator : COR : Main.cpp : 111 : 31 : 111 : 33 : ||
+Main_calculator : ArOR : Main.cpp : 95 : 33 : 95 : 34 : -
 
-Main_calculator : COR : Main.cpp : 111 : 31 : 111 : 33 : ^
+Main_calculator : COR : Main.cpp : 113 : 31 : 113 : 33 : ||
 
-Main_calculator : COR : Main.cpp : 111 : 41 : 111 : 43 : &&
+Main_calculator : COR : Main.cpp : 113 : 31 : 113 : 33 : ^
 
-Main_calculator : ArOR : Main.cpp : 117 : 65 : 117 : 66 : +
+Main_calculator : COR : Main.cpp : 113 : 41 : 113 : 43 : &&
 
-Main_calculator : UOD : Main.cpp : 198 : 25 : 198 : 25 : -
+Main_calculator : ArOR : Main.cpp : 119 : 65 : 119 : 66 : +
 
-Main_calculator : UOD : Main.cpp : 199 : 25 : 199 : 25 : -
+Main_calculator : UOD : Main.cpp : 200 : 25 : 200 : 25 : -
 
-Main_calculator : ROR : Main.cpp : 688 : 14 : 688 : 16 : <
+Main_calculator : UOD : Main.cpp : 201 : 25 : 201 : 25 : -
 
-Main_calculator : ROR : Main.cpp : 688 : 14 : 688 : 16 : >=
+Main_calculator : ROR : Main.cpp : 690 : 14 : 690 : 16 : <
 
-Main_calculator : ROR : Main.cpp : 688 : 14 : 688 : 16 : >
+Main_calculator : ROR : Main.cpp : 690 : 14 : 690 : 16 : >=
 
-Main_calculator : ArOR : Main.cpp : 679 : 34 : 679 : 35 : -
+Main_calculator : ROR : Main.cpp : 690 : 14 : 690 : 16 : >
 
-Main_calculator : ArOR : Main.cpp : 679 : 34 : 679 : 35 : *
+Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : -
 
-Main_calculator : ArOR : Main.cpp : 679 : 34 : 679 : 35 : /
+Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : *
 
-Main_calculator : ArOR : Main.cpp : 679 : 34 : 679 : 35 : %
+Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : /
+
+Main_calculator : ArOR : Main.cpp : 681 : 34 : 681 : 35 : %
 
 multiplier_multiply : AsOR : multiplier.cpp : 29 : 19 : 29 : 21 : -=
 
