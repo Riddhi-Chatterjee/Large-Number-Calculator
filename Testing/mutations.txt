@@ -1,5 +1,3 @@
-divider_divide : ArOR : divider.cpp : 90 : 34 : 90 : 35 : /
-
 divider_divide : ArOR : divider.cpp : 90 : 34 : 90 : 35 : *
 
 divider_divide : ArOR : divider.cpp : 90 : 34 : 90 : 35 : %
