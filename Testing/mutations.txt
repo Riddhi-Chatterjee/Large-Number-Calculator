@@ -62,7 +62,7 @@ adder_add : ROR : adder.cpp : 80 : 14 : 80 : 16 : >=
 
 adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : abs(p1)
 
-adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : -abs(p1)
+adder_add : AVI : adder.cpp : 29 : 24 : 29 : 26 : (-abs(p1))
 
 adder_add : AsOR : adder.cpp : 58 : 19 : 58 : 19 : +
 
