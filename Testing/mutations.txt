@@ -1,5 +1,3 @@
-Main_calculator : ArOR : Main.cpp : 93 : 33 : 93 : 34 : -
-
 Main_calculator : COR : Main.cpp : 111 : 31 : 111 : 33 : ||
 
 Main_calculator : COR : Main.cpp : 111 : 31 : 111 : 33 : ^
