@@ -1,20 +1,20 @@
-approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6: 35 : -
+approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6 : 35 : -
 
-approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6: 35 : *
+approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6 : 35 : *
 
-approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6: 35 : /
+approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6 : 35 : /
 
-approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6: 35 : %
+approximator_roundOff : ArOR : approximator.cpp : 6 : 34 : 6 : 35 : %
 
-approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6: 48 : -
+approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : -
 
-approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6: 48 : *
+approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : *
 
-approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6: 48 : /
+approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : /
 
-approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6: 48 : %
+approximator_roundOff : ArOR : approximator.cpp : 6 : 47 : 6 : 48 : %
 
-approximator_roundOff : ArOR : approximator.cpp : 6 : 59 : 6: 60 : -
+approximator_roundOff : ArOR : approximator.cpp : 6 : 59 : 6 : 60 : -
 
 approximator_roundOff : ROR : approximator.cpp : 13 : 14 : 13 : 15 : >=
 
